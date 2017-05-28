@@ -10,3 +10,5 @@
 \BOOKMARK [0][-]{chapter.3}{Arhitectura}{}% 10
 \BOOKMARK [1][-]{section.3.1}{Retele neurale artificiale}{chapter.3}% 11
 \BOOKMARK [1][-]{section.3.2}{Retele neurale artificiale recurente}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.3}{Modele Sequence-to-Sequence}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.4}{Hierarchical Recurrent Encoder-Decoder}{chapter.3}% 14

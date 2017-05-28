@@ -50,5 +50,24 @@ Poarta \(f_{t}\) se nume\c ste poart\u a de uitare (forget gate). Rolul ei este 
 \paragraph{}
 O RNAN aduce mai aproape ideea de modelare lingvistica, \^ ins\u a se poate observa c\u a aceasta nu permite ca intrare dec\^ at o fraz\u a pe r\^ and. Modelarea dorit\u a este o pereche de forma \^ intrebare-r\u aspuns.
 
-\section{Modele Sequence-to_Sequence}
+\section{Modele Sequence-to-Sequence}
 
+\paragraph{}
+Transla\c tia a reprezentat mereu un punct de interes \^ in mediul proces\u arii naturale de limbaj, constituind de altfel o provocare uria\c s\u a de-a lungul ultimilor ani. P\^ an\u a \^ in anul 2014, majoritatea modelelor de transla\c tie se bazau pe lan\c turi Markov ascunse (Hidden Markov Models - HMM), totul urm\^ and a se schimba odat\u a cu introducerea unei noi arhitecturi \^ in acel an de c\u atre Cho et Al. Noul tip de arhitectur\u a se numea Sequence-to-Sequence \c si urma s\u a aduc\u a imbun\u at\u a\c tiri spectaculoase at\^ at pe partea de transla\c tie c\^ at \c si pe partea conversa\c tional\u a. Modelul este vizibil \^ in Figura 3.3.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{seq2seq}
+\caption{Modelul Sequence-to-Sequence}
+\end{figure}
+
+\paragraph{}
+Aceast tip de arhitectur\u a este \^ impar\c tit\u a \^ in dou\u a jum\u at\u a\c ti: codor (encoder) \c si decodor (decoder). Sarcina codorului este s\u a primeasc\u a o fraz\u a cu un num\u ar variabil de cuvinte ca \c si intrare iar unica sa ie\c sire \footnote{Ie\c sirea de la ultimul element din secven\c t\u a} s\u a fie o captur\u a a \^ intregii intrari (un vector de lungime fix\u a). Aceast\u a captur\u a poate fi privit\u a ca o sumarizare a \^ intregii fraze. Sarcina decodorului este de a \^ inv\u a\c ta fraze pornind de la ie\c sirea codorului care va deveni prima intrare din decodor \c si restul intrarilor precedente. Astfel, intrarea curent\u a \(w_{n}\) \^ in decodor este ie\c sirea de la timpul anterior, \(w_{n-1}\). Modelarea se transform\u a astfel \^ intr-o probabilitate condi\c tionat\u a: \(P(w_{n} | w_{1}, w_{2},..., w_{n-1}, c)\), unde \(c\) reprezint\u a ie\c sirea codorului, deseori \^ int\^ alnit sub numele de context \^ in literatura de specialitate.
+
+\paragraph{}
+Intr\u arile \^ in acest model sunt de forma \^ intrebare-r\u aspuns. Original folosit ca model de transla\c tie, unde intrarea pentru codor era fraza \^ intr-o limb\u a iar intrarea \^ in decodor era fraza tradus\u a \^ in limba dorit\u a, acest principiu se poate aplica la fel de u\c sor pentru a modela o conversa\c tie. Spre deosebire de o traducere unde totul se \^ int\^ ampla punctual iar r\u aspunsul nu depinde dec\^ at de intrarea curent\u a, o conversa\c tie este foarte dependent\u a de un context. F\u ar\u a acest context, partenerul angrenat \^ in discu\c tie ar r\u aspunde mereu lu\^ and \^ in considerare doar ce i s-a spus acum, ignor\^ and cu totul replicile anterioare. Acesta nu este un comportament dorit \^ in cadrul unei conversa\c tii \c si de aceea modelul Sequence-to-Sequence nu este destul de puternic de sine st\u at\u ator pentru a modela o discu\c tie.
+
+\section{Hierarchical Recurrent Encoder-Decoder}
+
+\paragraph{}
+TODO
