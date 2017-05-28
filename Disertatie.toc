@@ -43,3 +43,8 @@
 \contentsline {paragraph}{}{12}{section*.30}
 \contentsline {section}{\numberline {3.4}Hierarchical Recurrent Encoder-Decoder}{13}{section.3.4}
 \contentsline {paragraph}{}{13}{section*.31}
+\contentsline {paragraph}{}{13}{section*.32}
+\contentsline {subsection}{\numberline {3.4.1}Celula GRU}{14}{subsection.3.4.1}
+\contentsline {paragraph}{}{14}{section*.33}
+\contentsline {subsection}{\numberline {3.4.2}HRED bidirec\c tional}{14}{subsection.3.4.2}
+\contentsline {paragraph}{}{14}{section*.34}
