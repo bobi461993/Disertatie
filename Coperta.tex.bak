@@ -1,0 +1,38 @@
+\begin{titlepage}
+	\begin{center}
+		\vspace*{-2cm}
+
+		\Large
+		\begin{tabular}{ll}
+			\multirow{8}{*}{\includegraphics[width=0.3\textwidth]{logo_facultate.png}}
+			&\\
+			&\\
+			&Universitatea Transilvania din Bra\c sov\\
+			&Facultatea de Matematic\u a \c si Informatic\u a\\
+			&Specializarea Tehnologii Moderne \\
+			& \^ in Ingineria Sistemelor Soft\\
+			&\\
+			&\\
+		\end{tabular}
+
+		\vspace{1.5cm}
+					
+		\Huge
+		\textbf{LUCRARE DE DISERTA\c TIE}
+		
+		\vspace{8cm}
+				
+		\Large
+		\begin{tabular}{ll}
+			\textbf{Autor:}&Mu\c sat Bogdan-Adrian\\
+			\textbf{Coordonator:}&Conf. dr. Lucian-Mircea Sasu
+		\end{tabular}
+		
+		\vfill
+		
+		\Large
+		Bra\c sov\\
+		2017
+        
+	\end{center}
+\end{titlepage}

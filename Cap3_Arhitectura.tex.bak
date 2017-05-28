@@ -1,0 +1,21 @@
+\chapter{Arhitectura}
+
+\paragraph{}
+Modelarea unui limbaj reprezint\u a o sarcin\u a extrem de dificil\u a pentru un calculator. Recente progrese \^ in aria Deep Learning au f\u acut posibile diverse dezvolt\u ari \^ in aceast\u a direc\c tie, \^ ins\u a lucrurile sunt departe de a fi rezolvate. Arhitectura folosit\u a pentru construc\c tia chatbot-ului prezentat \^ in aceast\u a lucrare va fi expus\u a precum un bloc de construc\c tii, plec\^ and de la no\c tiunile de baz\u a, p\^ an\u a la arhitectura final\u a.
+
+\section{Re\c tele neurale artificiale}
+
+\paragraph{}
+O re\c tea neural\u a artificial\u a (RNA) reprezint\u a o paradigm\u a bazat\u a pe procesare de informa\c tii a c\u arei inspira\c tii provine din sistemul nervos biologic. Precum creierul uman, o RNA este compus\u a dintr-un num\u ar mare de elemente de procesare interconectate (neuroni) lucr\^ and la unison pentru a rezolva diverse probleme. RNA, precum oamenii, \^ inva\c t\u a din exemple. \^ Inv\u a\c tarea \^ in sistemele biologice implic\u a ajustarea conexiunilor sinaptice care exist\u a \^ intre neuroni. Acest principiu se aplic\u a \c si acestor re\c tele.
+
+\paragraph{}
+Ca \c si modelare matematic\u a propriu-zis\u a, o RNA poate fi observat\u a \^ in Figura 3.1. Avem o intrare reprezentat\u a \^ in figur\u a de vectorul n-dimensional (x1, x2, x3, x4). Aceast\u a intrare reprezint\u a caracteristicile unui e\c santion care face parte dintr-un set de date. Straturile intermediare se numesc straturi ascunse, iar rolul lor este s\u a produc\u a o abstractizare c\^ at mai complex\u a a datelor de intrare, folosind diverse func\c tii cu activare neliniar\u a. Ultimul strat se nume\c ste strat de ie\c sire, reprezent\^ and eticheta (clasa) vectorului de intrare.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{deep_neural_network}
+\caption{Exemplu de re\c tea neural\u a artificial\u a}
+\end{figure}
+
+\paragraph{}
+Ceea ce de fapt acest tip de re\c tele incearc\u a s\u a inve\c te sunt ponderile dintre straturile existente. Se pleac\u a de la un set de ponderi alese aleator \footnote{Valorile ponderilor sunt deobicei subunitare iar ini\c tializarea este f\u acut\u a urm\^ and diverse principii matematice bine definite. Pentru cazuri simpliste, ini\c tializarea poate fi totu\c si aleas\u a dup\u a o distribu\c tie uniform\u a.}
