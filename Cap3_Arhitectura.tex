@@ -20,6 +20,9 @@ Ca \c si modelare matematic\u a propriu-zis\u a, o RNA poate fi observat\u a \^ 
 \paragraph{}
 Ceea ce de fapt acest tip de re\c tele incearc\u a s\u a inve\c te sunt ponderile dintre straturile sale. Se pleac\u a de la un set de ponderi alese aleator \footnote{Valorile ponderilor sunt deobicei subunitare iar ini\c tializarea este f\u acut\u a urm\^ and diverse principii matematice bine definite. Pentru cazuri simpliste, ini\c tializarea poate fi totu\c si facut\u a folosind o distribu\c tie uniform\u a.} \c si se ajusteaz\u a folosind algoritmul de propagare \^ inapoi a erorii p\^ an\u a c\^and re\c teaua se stabilizeaz\u a. 
 
+\paragraph{}
+TO CONTINUE
+
 \section{Re\c tele neurale artificiale recurente}
 
 \paragraph{}
@@ -84,7 +87,26 @@ Dup\u a cum se poate observa, modelul este construit prin al\u aturarea mai mult
 \subsection{Celula GRU}
 
 \paragraph{}
-TODO
+Gated Recurrent Unit sau GRU este un tip de celul\u a pentru o RNAR, menit\u a s\u a o \^ inlocuiasc\u a pe cea LSTM. Ecua\c tiile din spatele celulei(3.2) sunt asem\u an\u atoare cu cele LSTM.
+
+\begin{equation}
+\begin{split}
+z = \sigma(x_{t}U^{z} + s_{t-1}W^{z})\\
+r = \sigma(x_{t}U^{r} + s_{t-1}W^{r})\\
+h = \tanh(x_{t}U^{h} + (s_{t-1} \circ r)W^{h})\\
+s_{t} = (1 - z) \circ h + z \circ s_{t-1}\\
+\end{split}
+\end{equation}
+
+GRU are doar dou\u a por\c ti: poarta \(r\) de resetare (reset gate) \c si poarta \(z\) de actualizare (update gate). Intuitiv, poarta de resetare determin\u a cum se va combina noua intrare cu memoria precedent\u a iar cea de actualizare define\c ste c\^ at de mult\u a memorie anterioar\u a se p\u astreaz\u a. Principalele diferen\c te \^ intre GRU \c si LSTM sunt:
+\begin{itemize}
+  \item GRU are doar dou\u a por\c ti, pe c\^ and LSTM trei.
+  \item GRU nu posed\u a o memorie intern\u a \(c_{t}\) care s\u a fie diferit\u a de starea ascuns\u a expus\u a. Nu con\c tine poarta de ie\c sire care este prezent\u a pentru LSTM.
+  \item Poarta de intrare \c si cea de ie\c sire sunt cuplate de poarta de actualizare, iar poarta de resetare este aplicat\u a direct st\u arii ascunse anterioare. Astfel, responsabilitatea por\c tii de resetare din LSTM este \^ imp\u ar\c tit\u a \^ intre cea de resetare \c si cea de actualizare de la GRU.
+  \item Nu se aplic\u a o a doua neliaritate atunci c\^ and se calculeaz\u a ie\c sirea.
+\end{itemize}
+
+Nu exist\u a o arhitectur\u a c\^ a\c stig\u atoare clar\u a \^ intre LSTM \c si GRU. Av\^ and mai pu\c tini parametri (\(U\) \c si \(W\)), GRU se antreneaz\u a mai rapid \c si are nevoie de mai pu\c tine date pentru a generaliza. Pe de alt\u a parte, o cantitate mare de date	exprim\u a o putere mai mare de modelare din partea LSTM \c si astfel se pot ob\c tine rezultate mai bune. Pentru realizarea acestei aplica\c tii a fost aleas\u a o arhitectur\u a de tip GRU.
 
 \subsection{HRED bidirec\c tional}
 
@@ -95,4 +117,39 @@ Rolul codorului, precum a fost men\c tionat mai devreme, este s\u a captureze in
 \centering
 \includegraphics[width=0.5\textwidth]{bidirectional_rnn}
 \caption{RNAR bidirec\c tional}
+\end{figure} 
+
+\section{Word Embeddings}
+
+\paragraph{}
+TODO
+
+\section{Predic\c tie}
+
+\paragraph{}
+Av\^ and modelul antrenat, acesta trebuie folosit pentru predic\c tie, adic\u a generarea unor r\u aspunsuri adecvate pentru contextul discu\c tiei. Generarea cuvintelor este condi\c tionat\u a at\^ at de context, c\^ at \c si de cuvintele anterior generate. Spre deosebire de antrenare, \^ in momentul predic\c tiei, secve\c ta de ie\c sire este goal\u a ini\c tial (un vector de zerouri). Cuvintele sunt generate secven\c tial, unul c\^ ate unul \c si ad\u augate pe pozi\c tia \(t\) la care a ajuns secven\c ta. Deoarece stratul softmax al secven\c tei de ie\c sire returneaz\u a un vector de probabilit\u a\c ti peste toate cuvintele din vocabular, pentru a returna cuv\^ antul dorit se alege cel cu probabilitatea cea mai mare. Pornind de la aceast\u a idee, exist\u a dou\u a variante de generare: metoda greedy \c si beam search.
+
+\subsection{Greedy}
+
+\paragraph{}
+Precum \^ in teoria clasic\u a a algoritmicii, scopul metodelor greedy este s\u a selecteze \^ intotdeauna optimul local. \^ In cazul de fa\c t\u a, optimul local reprezint\u a cuv\^ antul cu probabilitatea de apari\c tie cea mai mare. Prin acest\u a metod\u a nu este garantat la final c\u a fraza produs\u a este cea mai bun\u a cu putin\c t\u a, deoarece o alt\u a combina\c tie de cuvinte poate produce oric\^ and o fraz\u a cu un scor mai bun\footnote{Sum\u a din logaritmul probilit\u a\c tilor frazei}. Astfel, singurul avantaj al acestei metode este viteza de predic\c tie rapid\u a. \^ In practic\u a, se prefer\u a folosirea unor algoritmi mai complexi, capabili s\u a aleag\u a fraza cea mai potrivit\u a dintr-un set de fraze canditat.
+
+\subsection{Beam search}
+
+\paragraph{}
+Algoritmul beam search folose\c ste ideea de arbore de c\u autare pentru a genera fraze (Figura 3.6). \^ In locul alegerii cuv\^ antului cu probabilitatea cea mai mare la fiecare pas, se vor alege top \(k\) cuvinte cu cele mai mari probabilit\u a\c ti. \^ In literatur\u a, \(k\) se mai nume\c ste \c si beam size. Fiecare nod (cuv\^ ant) ales va produce un num\u ar \(n_c\) de copii. \^ In felul acesta este garantat\u a generarea mai multor fraze canditat din care se va alege. Fiecare fraz\u a are un scor \(S(f)\), care este de forma ecua\c tiei 3.3, unde \(P(w_{i})\) reprezint\u a probabilitatea cuv\^ antului ales. O fraz\u a devine canditat atunci c\^ and cuv\^ antul curent generat este simbolul de sf\^ ar\c sit de propozi\c tie. \^ In momentul \^ in care algoritmul a terminat de generat toate frazele canditat, cea mai bun\u a este determinat\u a ca fiind cea cu scorul \(S(f)\) cel mai mare.\\
+
+\begin{equation}
+\begin{split}
+S(f) = \frac{1}{n} \sum_{i=0}^{n} \log P(w_{i})
+\end{split}
+\end{equation}
+
+\paragraph{}
+Pentru ca acest arbore de c\u autare s\u a nu capete o cre\c stere exponen\c tial\u a, la fiecare pas se p\u astreaz\u a un numar egal cu beam size cele mai bune fraze iar restul sunt decartate. Acest algoritm nu asigur\u a de departe optimul global, \^ ins\u a spa\c tiul c\u aut\u arii oferit de folosirea unui arbore este mult mai bine dezvoltat \c si ales dec\^ at la metoda greedy. Cu c\^ at beam size si num\u arul de copii genera\c ti sunt mai mari, cu at\^ at algoritmul ofer\u a solu\c tii c\^ at mai apropiate de optimul global. De asemenea, odat\u a cu cre\c sterea acestor parametri, cre\c ste \c si timpul de c\u auture \c si generare \^ in arbore. De aceea, trebuie s\u a existe un compromis \^ intre calitatea predic\c tiei \c si viteza de execu\c tie a algoritmului.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.6\textwidth]{beam_search}
+\caption{Arbore de c\u autare pentru algoritmul beam search}
 \end{figure} 

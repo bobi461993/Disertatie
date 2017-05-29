@@ -14,3 +14,7 @@
 \BOOKMARK [1][-]{section.3.4}{Hierarchical Recurrent Encoder-Decoder}{chapter.3}% 14
 \BOOKMARK [2][-]{subsection.3.4.1}{Celula GRU}{section.3.4}% 15
 \BOOKMARK [2][-]{subsection.3.4.2}{HRED bidirectional}{section.3.4}% 16
+\BOOKMARK [1][-]{section.3.5}{Word Embeddings}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.6}{Predictie}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.6.1}{Greedy}{section.3.6}% 19
+\BOOKMARK [2][-]{subsection.3.6.2}{Beam search}{section.3.6}% 20
