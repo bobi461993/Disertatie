@@ -15,6 +15,11 @@
 \BOOKMARK [2][-]{subsection.3.4.1}{Celula GRU}{section.3.4}% 15
 \BOOKMARK [2][-]{subsection.3.4.2}{HRED bidirectional}{section.3.4}% 16
 \BOOKMARK [1][-]{section.3.5}{Word Embeddings}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.6}{Predictie}{chapter.3}% 18
-\BOOKMARK [2][-]{subsection.3.6.1}{Greedy}{section.3.6}% 19
-\BOOKMARK [2][-]{subsection.3.6.2}{Beam search}{section.3.6}% 20
+\BOOKMARK [2][-]{subsection.3.5.1}{Word2vec}{section.3.5}% 18
+\BOOKMARK [2][-]{subsection.3.5.2}{Word embeddings preantrenate}{section.3.5}% 19
+\BOOKMARK [1][-]{section.3.6}{Predictie}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.6.1}{Greedy}{section.3.6}% 21
+\BOOKMARK [2][-]{subsection.3.6.2}{Beam search}{section.3.6}% 22
+\BOOKMARK [0][-]{chapter.4}{Experimente si rezultate}{}% 23
+\BOOKMARK [0][-]{chapter.5}{Posibile dezvoltari}{}% 24
+\BOOKMARK [0][-]{chapter.6}{Concluzii}{}% 25

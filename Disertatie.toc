@@ -49,12 +49,19 @@
 \contentsline {paragraph}{}{14}{section*.34}
 \contentsline {subsection}{\numberline {3.4.2}HRED bidirec\c tional}{15}{subsection.3.4.2}
 \contentsline {paragraph}{}{15}{section*.35}
-\contentsline {section}{\numberline {3.5}Word Embeddings}{15}{section.3.5}
-\contentsline {paragraph}{}{15}{section*.36}
-\contentsline {section}{\numberline {3.6}Predic\c tie}{16}{section.3.6}
+\contentsline {section}{\numberline {3.5}Word Embeddings}{16}{section.3.5}
+\contentsline {paragraph}{}{16}{section*.36}
+\contentsline {subsection}{\numberline {3.5.1}Word2vec}{16}{subsection.3.5.1}
 \contentsline {paragraph}{}{16}{section*.37}
-\contentsline {subsection}{\numberline {3.6.1}Greedy}{16}{subsection.3.6.1}
-\contentsline {paragraph}{}{16}{section*.38}
-\contentsline {subsection}{\numberline {3.6.2}Beam search}{16}{subsection.3.6.2}
-\contentsline {paragraph}{}{16}{section*.39}
-\contentsline {paragraph}{}{17}{section*.40}
+\contentsline {subsection}{\numberline {3.5.2}Word embeddings preantrenate}{17}{subsection.3.5.2}
+\contentsline {paragraph}{}{17}{section*.38}
+\contentsline {section}{\numberline {3.6}Predic\c tie}{17}{section.3.6}
+\contentsline {paragraph}{}{17}{section*.39}
+\contentsline {subsection}{\numberline {3.6.1}Greedy}{18}{subsection.3.6.1}
+\contentsline {paragraph}{}{18}{section*.40}
+\contentsline {subsection}{\numberline {3.6.2}Beam search}{18}{subsection.3.6.2}
+\contentsline {paragraph}{}{18}{section*.41}
+\contentsline {paragraph}{}{18}{section*.42}
+\contentsline {chapter}{\numberline {4}Experimente \c si rezultate}{20}{chapter.4}
+\contentsline {chapter}{\numberline {5}Posibile dezvolt\u ari}{21}{chapter.5}
+\contentsline {chapter}{\numberline {6}Concluzii}{22}{chapter.6}

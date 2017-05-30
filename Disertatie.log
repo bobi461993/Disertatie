@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.28)  29 MAY 2017 23:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.28)  31 MAY 2017 00:12
 entering extended mode
 **./Disertatie.tex
 (Disertatie.tex
@@ -341,7 +341,7 @@ Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 )
 (Disertatie.aux (Coperta.aux) (Cap1_Introducere.aux) (Cap2_LucrariSimilare.aux)
 (Cap3_Arhitectura.aux) (Cap4_ExperimenteRezultate.aux)
-(Cap5_PosibileDezvoltari.aux) (Cap6_Concluzie.aux))
+(Cap5_PosibileDezvoltari.aux) (Cap6_Concluzii.aux))
 \openout1 = `Disertatie.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -418,7 +418,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<./imagini/logo_facultate.png, id=83, 569.12625pt x 569.12625pt>
+<./imagini/logo_facultate.png, id=103, 569.12625pt x 569.12625pt>
 File: ./imagini/logo_facultate.png Graphic file (type png)
 
 <use ./imagini/logo_facultate.png>
@@ -466,14 +466,14 @@ Package hyperref Warning: Composite letter `\textcedilla+t'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textcedilla' on input line 24.
 
-<./imagini/tichet_unitbv1.png, id=132, 470.50781pt x 59.47218pt>
+<./imagini/tichet_unitbv1.png, id=157, 470.50781pt x 59.47218pt>
 File: ./imagini/tichet_unitbv1.png Graphic file (type png)
 
 <use ./imagini/tichet_unitbv1.png>
 Package pdftex.def Info: ./imagini/tichet_unitbv1.png used on input line 30.
 (pdftex.def)             Requested size: 312.00119pt x 39.43687pt.
 
-<./imagini/tichet_unitbv2.png, id=133, 470.50781pt x 272.51813pt>
+<./imagini/tichet_unitbv2.png, id=158, 470.50781pt x 272.51813pt>
 File: ./imagini/tichet_unitbv2.png Graphic file (type png)
 
 <use ./imagini/tichet_unitbv2.png>
@@ -501,14 +501,14 @@ Package hyperref Warning: Glyph not defined in PD1 encoding,
 
 
 
-] <./imagini/duolingo.png, id=159, 357.335pt x 510.90875pt>
+] <./imagini/duolingo.png, id=184, 357.335pt x 510.90875pt>
 File: ./imagini/duolingo.png Graphic file (type png)
 
 <use ./imagini/duolingo.png>
 Package pdftex.def Info: ./imagini/duolingo.png used on input line 21.
 (pdftex.def)             Requested size: 117.00119pt x 167.28291pt.
 
-<./imagini/facebook.jpeg, id=160, 803.0pt x 534.99875pt>
+<./imagini/facebook.jpeg, id=185, 803.0pt x 534.99875pt>
 File: ./imagini/facebook.jpeg Graphic file (type jpg)
 
 <use ./imagini/facebook.jpeg>
@@ -524,7 +524,7 @@ Package hyperref Warning: Composite letter `\textcedilla+t'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textcedilla' on input line 6.
 
-<./imagini/deep_neural_network.png, id=175, 488.26317pt x 264.40244pt>
+<./imagini/deep_neural_network.png, id=200, 488.26317pt x 264.40244pt>
 File: ./imagini/deep_neural_network.png Graphic file (type png)
 
 <use ./imagini/deep_neural_network.png>
@@ -541,7 +541,7 @@ Package hyperref Warning: Composite letter `\textcedilla+t'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textcedilla' on input line 26.
 
-<./imagini/rnn_network.png, id=184, 977.8131pt x 256.91985pt>
+<./imagini/rnn_network.png, id=209, 977.8131pt x 256.91985pt>
 File: ./imagini/rnn_network.png Graphic file (type png)
 
 <use ./imagini/rnn_network.png>
@@ -549,14 +549,14 @@ Package pdftex.def Info: ./imagini/rnn_network.png used on input line 33.
 (pdftex.def)             Requested size: 350.99762pt x 92.22449pt.
  [10 <./imagini/deep_neural_network.png>]
 [11 <./imagini/rnn_network.png>]
-<./imagini/seq2seq.png, id=212, 481.04718pt x 239.39438pt>
+<./imagini/seq2seq.png, id=237, 481.04718pt x 239.39438pt>
 File: ./imagini/seq2seq.png Graphic file (type png)
 
 <use ./imagini/seq2seq.png>
 Package pdftex.def Info: ./imagini/seq2seq.png used on input line 63.
 (pdftex.def)             Requested size: 312.00119pt x 155.27208pt.
  [12 <./imagini/seq2seq.png>]
-<./imagini/hred.png, id=224, 1161.33875pt x 584.1825pt>
+<./imagini/hred.png, id=249, 1161.33875pt x 584.1825pt>
 File: ./imagini/hred.png Graphic file (type png)
 
 <use ./imagini/hred.png>
@@ -577,57 +577,92 @@ Package hyperref Warning: Composite letter `\textcedilla+t'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textcedilla' on input line 111.
 
-<./imagini/bidirectional_rnn.png, id=238, 243.7908pt x 278.7213pt>
+<./imagini/bidirectional_rnn.png, id=263, 243.7908pt x 278.7213pt>
 File: ./imagini/bidirectional_rnn.png Graphic file (type png)
 
 <use ./imagini/bidirectional_rnn.png>
 Package pdftex.def Info: ./imagini/bidirectional_rnn.png used on input line 118
 .
 (pdftex.def)             Requested size: 195.0pt x 222.94756pt.
+ [15 <./imagini/bidirectional_rnn.png>]
+<./imagini/word_embeddings.png, id=272, 996.72375pt x 816.04875pt>
+File: ./imagini/word_embeddings.png Graphic file (type png)
 
+<use ./imagini/word_embeddings.png>
+Package pdftex.def Info: ./imagini/word_embeddings.png used on input line 138.
+(pdftex.def)             Requested size: 272.99881pt x 223.51134pt.
+ [16]
 
 Package hyperref Warning: Composite letter `\textcedilla+t'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textcedilla' on input line 127.
+(hyperref)                removing `\textcedilla' on input line 147.
 
-[15 <./imagini/bidirectional_rnn.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+[17 <./imagini/word_embeddings.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-[16] <./imagini/beam_search.png, id=256, 613.54219pt x 437.38406pt>
+[18] <./imagini/beam_search.png, id=301, 613.54219pt x 437.38406pt>
 File: ./imagini/beam_search.png Graphic file (type png)
 
 <use ./imagini/beam_search.png>
-Package pdftex.def Info: ./imagini/beam_search.png used on input line 153.
+Package pdftex.def Info: ./imagini/beam_search.png used on input line 173.
 (pdftex.def)             Requested size: 234.00238pt x 166.81499pt.
-) [17 <./imagini/beam_search.png>]
+) [19 <./imagini/beam_search.png>]
 \openout2 = `Cap4_ExperimenteRezultate.aux'.
 
 
-No file Cap4_ExperimenteRezultate.tex.
+(Cap4_ExperimenteRezultate.tex
+Capitolul 4.
+
+Package hyperref Warning: Composite letter `\textcedilla+s'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textcedilla' on input line 1.
+
+) [20
+
+
+
+]
 \openout2 = `Cap5_PosibileDezvoltari.aux'.
 
-No file Cap5_PosibileDezvoltari.tex.
-\openout2 = `Cap6_Concluzie.aux'.
+ (Cap5_PosibileDezvoltari.tex
+Capitolul 5.
 
-No file Cap6_Concluzie.tex.
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\u' on input line 1.
+
+) [21
+
+
+
+]
+\openout2 = `Cap6_Concluzii.aux'.
+
+ (Cap6_Concluzii.tex
+Capitolul 6.
+) [22
+
+
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
-(Disertatie.aux (Coperta.aux) (Cap1_Introducere.aux) (Cap2_LucrariSimilare.aux)
-(Cap3_Arhitectura.aux) (Cap4_ExperimenteRezultate.aux)
-(Cap5_PosibileDezvoltari.aux) (Cap6_Concluzie.aux))
+ (Disertatie.aux (Coperta.aux) (Cap1_Introducere.aux)
+(Cap2_LucrariSimilare.aux) (Cap3_Arhitectura.aux)
+(Cap4_ExperimenteRezultate.aux) (Cap5_PosibileDezvoltari.aux)
+(Cap6_Concluzii.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
 Package rerunfilecheck Info: File `Disertatie.out' has not changed.
-(rerunfilecheck)             Checksum: B326891806CBDD1A95A7C7466D2DB62F;1312.
+(rerunfilecheck)             Checksum: 56C7CF73D6134A02540975F366815882;1621.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
  ) 
 Here is how much of TeX's memory you used:
- 8033 strings out of 493328
- 116523 string characters out of 3139112
+ 8065 strings out of 493328
+ 117053 string characters out of 3139112
  218492 words of memory out of 3000000
- 11303 multiletter control sequences out of 15000+200000
+ 11313 multiletter control sequences out of 15000+200000
  13355 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,15n,33p,1384b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -641,9 +676,9 @@ msfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Disertatie.pdf (18 pages, 879181 bytes).
+Output written on Disertatie.pdf (23 pages, 1152912 bytes).
 PDF statistics:
- 323 PDF objects out of 1000 (max. 8388607)
- 94 named destinations out of 1000 (max. 500000)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 381 PDF objects out of 1000 (max. 8388607)
+ 109 named destinations out of 1000 (max. 500000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 

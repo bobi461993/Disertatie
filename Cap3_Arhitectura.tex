@@ -122,7 +122,27 @@ Rolul codorului, precum a fost men\c tionat mai devreme, este s\u a captureze in
 \section{Word Embeddings}
 
 \paragraph{}
-TODO
+Buna reprezentare a caracteristicilor unei intr\u ari conduce la rezultate comparativ mai bune fa\c t\u a de situa\c tiile unde acestea sunt \^ inf\u aptuite manual. C\^ and vine vorba despre procesarea natural\u a de limbaj, buna reprezentare a cuvintelor din vocabular (word embeddings) \^ inseamn\u a un factor decisiv pentru succesul final. O reprezentare evident\u a ar fi folosirea codific\u arii de tipul one-hot care presupune un vector de lungimea vocabularului, umplut cu elemente \(0\) iar pozi\c tia pe care se afl\u a cuv\^ antul va fi marcat\u a cu \(1\). Dac\u a lungimea vocabularului este mare, vectorul va deveni rar (sparse) \c si avem de a face cu no\c tiunea de blestemul dimensionalit\u a\c tii\footnote{Dimensionalitatea vectorului de intrare este extrem de mare iar arhitectura re\c telei nu este capabil\u a s\u a modeleze distribu\c tia de probabilit\u a\c ti a datelor}. Astfel, este necesar\u a o codificare compact\u a, mai inteligent\u a, care s\u a fie de asemenea semnificativ\u a pentru semantica cuvintelor.
+
+\subsection{Word2vec}
+
+\paragraph{}
+\^ In anul 2013, Mikolov et al. a propus un model pentru word embeddings care se nume\c ste word2vec. \^ In prezent, atunci c\^ and vine vorba despre modelare de limbaj natural, word2vec este solu\c tia cea mai abordat\u a \^ in practic\u a. Aceasta propune folosirea unor vectori de lungime fix\u a, compact\u a care totodat\u a s\u a captureze sensul cuvintelor. Ideea de baz\u a este ca \^ in spa\c tiul n-dimensional folosit, cuvintele cu semantic\u a asem\u anatoare s\u a aib\u a un scor de similaritate c\^at mai mare. Ca \c si metric\u a de similaritate preferat\u a pentru cuantificarea asem\u an\u arii \^ intre reprezentarea a dou\u a cuvinte, c\^ astig\u atoarea este de cele mai multe ori similaritatea cosinus (ecua\c tia 3.3). Cel mai popular exemplu produs pentru a descrie puterea de modelare folosit\u a de word2vec este \(king - man + woman \approx queen\). Figura 3.6 captureaz\u a ideea de word2vec vizualizat \^ intr-un spa\c tiu bidimensional.
+
+\begin{equation}
+s(w_{1}, w_{2}) = \frac{\sum_{i=1}^{n}w_{1i}w_{2i}}{\sqrt{\sum_{i=1}^{n}w_{1i}^{2}}\sqrt{\sum_{i=1}^{n}w_{2i}^{2}}}
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{word_embeddings}
+\caption{Word2vec vizualizat \^ in spa\c tiu 2D}
+\end{figure} 
+
+\subsection{Word embeddings preantrenate}
+
+\paragraph{}
+\^ In machine learning, de cele mai multe ori exist\u a arhitecturi deja antrenate pentru diverse sarcini precum clasificare de imagini, recunoa\c stere vocal\u a etc. La fel este cazul \c si pentru word embeddings. Google a produs o antrenare pe un set de date care const\u a din miliarde de articole de \c stiri, rezult\^ and \^ in urma acesteia word embeddings pentru aproximativ trei miliarde de cuvinte. Dac\u a se dore\c ste antrenarea unei re\c tele care s\u a \^ inve\c te word embeddings pornind de la zero este posibil, \^ ins\u a sarcina este destul de dificil\u a iar rezultatul produs este dependent de natura cuvintelor din setul de date disponibil. Modelarea ideal\u a ar fi ca aceste reprezent\u ari ale cuvintelor s\u a exprime c\^ at mai bine realitatea \^ inconjur\u atoare \c si nu un subset al acesteia. Din acest motiv, este preferat\u a folosirea modelului preantrenat de word embeddings pus\u a la dispozi\c tie de Google.
 
 \section{Predic\c tie}
 
