@@ -64,4 +64,11 @@
 \contentsline {paragraph}{}{18}{section*.42}
 \contentsline {chapter}{\numberline {4}Experimente \c si rezultate}{20}{chapter.4}
 \contentsline {chapter}{\numberline {5}Posibile dezvolt\u ari}{21}{chapter.5}
-\contentsline {chapter}{\numberline {6}Concluzii}{22}{chapter.6}
+\contentsline {section}{\numberline {5.1}\^ Inv\u a\c tare prin \^ int\u arire}{21}{section.5.1}
+\contentsline {paragraph}{}{21}{section*.43}
+\contentsline {paragraph}{}{21}{section*.44}
+\contentsline {paragraph}{}{22}{section*.45}
+\contentsline {paragraph}{}{22}{section*.46}
+\contentsline {paragraph}{}{22}{section*.47}
+\contentsline {paragraph}{}{23}{section*.48}
+\contentsline {chapter}{\numberline {6}Concluzii}{24}{chapter.6}
