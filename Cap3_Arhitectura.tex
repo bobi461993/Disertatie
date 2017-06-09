@@ -6,7 +6,7 @@ Modelarea unui limbaj reprezint\u a o sarcin\u a extrem de dificil\u a pentru un
 \section{Re\c tele neurale artificiale}
 
 \paragraph{}
-O re\c tea neural\u a artificial\u a (RNA) reprezint\u a o paradigm\u a bazat\u a pe procesare de informa\c tii a c\u arei inspira\c tii provine din sistemul nervos biologic. Precum creierul uman, o RNA este compus\u a dintr-un num\u ar mare de elemente de procesare interconectate (neuroni) lucr\^ and la unison pentru a rezolva diverse probleme. RNA, precum oamenii, \^ inva\c t\u a din exemple. \^ Inv\u a\c tarea \^ in sistemele biologice implic\u a ajustarea conexiunilor sinaptice care exist\u a \^ intre neuroni. Acest principiu se aplic\u a \c si acestor re\c tele.
+O re\c tea neural\u a artificial\u a (RNA) reprezint\u a o paradigm\u a bazat\u a pe procesare de informa\c tii a c\u arei inspira\c tie provine din sistemul nervos biologic. Precum creierul uman, o RNA este compus\u a dintr-un num\u ar mare de elemente de procesare interconectate (neuroni) lucr\^ and la unison pentru a rezolva diverse probleme. RNA, precum oamenii, \^ inva\c t\u a din exemple. \^ Inv\u a\c tarea \^ in sistemele biologice implic\u a ajustarea conexiunilor sinaptice care exist\u a \^ intre neuroni. Acest principiu se aplic\u a \c si acestor re\c tele.
 
 \paragraph{}
 Ca \c si modelare matematic\u a propriu-zis\u a, o RNA poate fi observat\u a \^ in Figura 3.1. Avem o intrare reprezentat\u a \^ in figur\u a de vectorul n-dimensional (x1, x2, x3, x4). Aceast\u a intrare reprezint\u a caracteristicile unui e\c santion care face parte dintr-un set de date. Straturile intermediare se numesc straturi ascunse, iar rolul lor este s\u a produc\u a o abstractizare c\^ at mai complex\u a a datelor de intrare, folosind diverse func\c tii cu activare neliniar\u a. Ultimul strat se nume\c ste strat de ie\c sire, reprezent\^ and eticheta (clasa) vectorului de intrare.
@@ -18,7 +18,7 @@ Ca \c si modelare matematic\u a propriu-zis\u a, o RNA poate fi observat\u a \^ 
 \end{figure}
 
 \paragraph{}
-Ceea ce de fapt acest tip de re\c tele incearc\u a s\u a inve\c te sunt ponderile dintre straturile sale. Se pleac\u a de la un set de ponderi alese aleator \footnote{Valorile ponderilor sunt deobicei subunitare iar ini\c tializarea este f\u acut\u a urm\^ and diverse principii matematice bine definite. Pentru cazuri simpliste, ini\c tializarea poate fi totu\c si facut\u a folosind o distribu\c tie uniform\u a.} \c si se ajusteaz\u a folosind algoritmul de propagare \^ inapoi a erorii p\^ an\u a c\^and re\c teaua se stabilizeaz\u a. 
+Ceea ce de fapt acest tip de re\c tele incearc\u a s\u a inve\c te sunt ponderile dintre straturile sale. Se pleac\u a de la un set de ponderi alese aleator\footnote{Valorile ponderilor sunt deobicei subunitare iar ini\c tializarea este f\u acut\u a urm\^ and diverse principii matematice bine definite. Pentru cazuri simpliste, ini\c tializarea poate fi totu\c si facut\u a folosind o distribu\c tie uniform\u a.} \c si se ajusteaz\u a folosind algoritmul de propagare \^ inapoi a erorii p\^ an\u a c\^and re\c teaua se stabilizeaz\u a. 
 
 \paragraph{}
 TO CONTINUE
@@ -26,7 +26,7 @@ TO CONTINUE
 \section{Re\c tele neurale artificiale recurente}
 
 \paragraph{}
-Dup\u a cum se poate observa, o RNA este util\u a atunci c\^ and intrarea este format\u a dintr-un singur element, de exemplu o imagine. Modelarea unui limbaj \^ ins\u a presupune ca intr\u arile s\u a fie fraze. O fraz\u a este format\u a din mai multe elemente (cuvinte), deci o RNA nu poate modela o astfel de intrare. Solu\c tia pentru aceast\u a problem\u a este oferit\u a de re\c telele neurale artificiale recurente (RNAR). Acestea sunt folosite pentru a modela secven\c te unde exist\u a o dependen\c t\u a temporal\u a (fraze, serii de timp). Fiecare intrare curent\u a din secven\c t\u a este condi\c tionat\u a de cele precedente. O astfel de re\c tea se poate observa \^ in Figura 3.2. Straturile ascunse \^ intr-o RNAR au rolul de a p\u astra o captur\u a a tot ceea ce s-a oferit ca intrare p\^ an\u a \^ in momentul curent. Valoarea fiec\u arui strat ascuns curent depinde astfel at\^ at de intrarea curent\u a c\^ at \c si de ie\c sirea stratului ascuns anterior. Putem considera toat\u a aceast\u a modelare ca pe o probabilitate condi\c tionat\u a \( P(x_{n} | x_{1}, x_{2},..., x_{n-1}) \), unde \^ in cazul unei fraze \(x_{1}, x_{2},..., x_{n}\) reprezint\u a cuvintele acesteia. 
+Dup\u a cum se poate observa, o RNA este util\u a atunci c\^ and intrarea este format\u a dintr-un singur element, de exemplu o imagine. Modelarea unui limbaj \^ ins\u a presupune ca intr\u arile s\u a fie fraze. O fraz\u a este format\u a din mai multe elemente (cuvinte), deci o RNA clasic\u a nu poate modela o astfel de intrare. Solu\c tia pentru aceast\u a problem\u a este oferit\u a de re\c telele neurale artificiale recurente (RNAR). Acestea sunt folosite pentru a modela secven\c te unde exist\u a o dependen\c t\u a temporal\u a (fraze, serii de timp). Fiecare intrare curent\u a din secven\c t\u a este condi\c tionat\u a de cele precedente. O astfel de re\c tea se poate observa \^ in Figura 3.2. Straturile ascunse \^ intr-o RNAR au rolul de a p\u astra o captur\u a a tot ceea ce s-a oferit ca intrare p\^ an\u a \^ in momentul curent. Valoarea fiec\u arui strat ascuns curent depinde astfel at\^ at de intrarea curent\u a c\^ at \c si de ie\c sirea stratului ascuns anterior. Putem considera toat\u a aceast\u a modelare ca pe o probabilitate condi\c tionat\u a \( P(x_{n} | x_{1}, x_{2},..., x_{n-1}) \), unde \^ in cazul unei fraze \(x_{1}, x_{2},..., x_{n}\) reprezint\u a cuvintele acesteia. 
 
 \begin{figure}[H]
 \centering
@@ -35,7 +35,7 @@ Dup\u a cum se poate observa, o RNA este util\u a atunci c\^ and intrarea este f
 \end{figure}
 
 \paragraph{}
-Algoritmul de reglare a ponderilor se nume\c ste propagarea \^ inapoi \^ in timp a erorii. O problem\u a serioas\u a care a ap\u arut odat\u a cu introducerea acestor re\c tele se nume\c ste risipirea gradien\c tilor. \^ In cazul \^ in care secven\c ta de intrare are o lungime mare, informa\c tia nu reu\c se\c ste s\u a se propage \^ in timp deoarece gradientul ponderilor se risipe\c ste, ponderile devenind 0. Mecanismul care \^ inl\u atur\u a aceast\u a problem\u a se nume\c ste Long Short Term Memory (LSTM). Principiul este ca prin folosirea unor por\c ti de transmitere a informa\c tiei, gradientul s\u a fie stabilizat. Acest mecanism a reprezentat un avans spectaculos pentru Deep Learning, permi\c t\^ and modelarea secven\c tial\u a cu re\c tinere a informa\c tiei pe o perioad\u a \^ indelungat\u a de timp. Ecua\c tiile 3.1 descriu calculele pentru por\c tile LSTM.
+Algoritmul de reglare a ponderilor se nume\c ste propagarea \^ inapoi \^ in timp a erorii. O problem\u a serioas\u a care a ap\u arut odat\u a cu introducerea acestor re\c tele se nume\c ste anularea gradien\c tilor\footnote{vanishing gradients}. \^ In cazul \^ in care secven\c ta de intrare are o lungime mare, informa\c tia nu reu\c se\c ste s\u a se propage \^ in timp deoarece gradientul ponderilor tinde s\u a devin\u a \(0\). Mecanismul care \^ inl\u atur\u a aceast\u a problem\u a se nume\c ste Long Short Term Memory (LSTM). Principiul este ca prin folosirea unor por\c ti de transmitere a informa\c tiei, gradientul s\u a fie stabilizat. Acest mecanism a reprezentat un avans spectaculos pentru Deep Learning, permi\c t\^ and modelarea secven\c tial\u a cu re\c tinere a informa\c tiei pe o perioad\u a \^ indelungat\u a de timp. Ecua\c tiile 3.1 descriu calculele pentru por\c tile LSTM.
 
 \begin{equation}
 \begin{split}
@@ -51,7 +51,7 @@ h_{t} = o_{t} \circ \tanh (c_{t})\\
 Poarta \(f_{t}\) se nume\c ste poart\u a de uitare (forget gate). Rolul ei este s\u a stabilieasc\u a c\^ at\u a informa\c tie se va uita din trecut. Poarta \(i_{t}\) este poarta de intrare (input gate). Aceasta delimiteaz\u a care este cantitatea de informa\c tie care se p\u astreaz\u a din intrarea curent\u a. Poarta \(o_{t}\) este cea de ie\c sire (output gate). Ea controleaz\u a ce informa\c tie va fi transmis\u a c\u atre ie\c sire. \(c_{t}\) se nume\c ste starea intern\u a a celulei LSTM. Aceasta este calculat\u a ca o combina\c tie \^ intre starea anterioar\u a a celulei, poarta de intrare \c si cea de ie\c sire. \(h_{t}\) reprezint\u a ie\c sirea curent\u a a re\c telei \c si depinde de poarta de ie\c sire \c si starea celulei LSTM. 
 
 \paragraph{}
-O RNAN aduce mai aproape ideea de modelare lingvistica, \^ ins\u a se poate observa c\u a aceasta nu permite ca intrare dec\^ at o fraz\u a pe r\^ and. Modelarea dorit\u a este o pereche de forma \^ intrebare-r\u aspuns.
+O RNAN aduce mai aproape ideea de modelare lingvistica, \^ ins\u a se poate observa c\u a aceasta nu permite ca intrare dec\^ at o fraz\u a pe r\^ and. Modelarea dorit\u a \^ in aceast\u a lucrare este o pereche de forma \^ intrebare-r\u aspuns.
 
 \section{Modele Sequence-to-Sequence}
 
@@ -111,12 +111,12 @@ Nu exist\u a o arhitectur\u a c\^ a\c stig\u atoare clar\u a \^ intre LSTM \c si
 \subsection{HRED bidirec\c tional}
 
 \paragraph{}
-Rolul codorului, precum a fost men\c tionat mai devreme, este s\u a captureze informa\c tia unei fraze \^ intr-un vector de lungime fix\u a. \^ In orice limbaj, sensul unui cuv\^ ant nu este stabilit doar de cuvintele precedente ci \c si de cele ce vor urma. Deoarece RNAR modeleaz\u a cuvintele dintr-o fraz\u a pornind de la cuv\^ antul \(w_{1}\) la \(w_{n}\), \^ in\c telesul din viitor al acestora este ignorat, iar captura frazei poate s\u a nu fie \^ indeajuns de reprezentativ\u a. Astfel, este propus\u a folosirea unei RNAR bidirec\c tionale (Figura 3.5) pentru codor. Acest tip de re\c tea folose\c ste dou\u a parcurgeri ale secven\c tei de intrare: cea \^ inainte, care se desf\u a\c soar\u a \^ in mod obi\c snuit \c si cea invers\u a (de la \(w_{n}\) la \(w_{1}\)), pentru capturarea \^ intelesului din viitor al cuvintelor. Ie\c sirea pentru pargurgerea \^ inainte va fi la timpul \(n\) iar cea pentru parcurgerea invers\u a va fi la timpul ini\c tial. Vectorul de lungime fix\u a va fi format din concatenarea celor dou\u a ie\c siri ale re\c telei bidirec\c tionale.
+Rolul codorului, precum a fost men\c tionat mai devreme, este s\u a captureze informa\c tia unei fraze \^ intr-un vector de lungime fix\u a. \^ In orice limbaj, sensul unui cuv\^ ant nu este stabilit doar de cuvintele precedente ci \c si de cele ce vor urma. Deoarece RNAR modeleaz\u a cuvintele dintr-o fraz\u a pornind de la cuv\^ antul \(w_{1}\) la \(w_{n}\), \^ in\c telesul din viitor al acestora este ignorat, iar captura frazei poate s\u a nu fie \^ indeajuns de reprezentativ\u a. Astfel, este propus\u a folosirea unei RNAR bidirec\c tionale (Figura 3.5) pentru codor. Acest tip de re\c tea folose\c ste dou\u a parcurgeri ale secven\c tei de intrare: cea \^ inainte, care se desf\u a\c soar\u a \^ in mod obi\c snuit \c si cea invers\u a (de la \(w_{n}\) la \(w_{1}\)), pentru capturarea \^ in\c telesului din viitor al cuvintelor. Ie\c sirea pentru pargurgerea \^ inainte va fi la timpul \(n\) iar cea pentru parcurgerea invers\u a va fi la timpul ini\c tial. Vectorul de lungime fix\u a va fi format din concatenarea celor dou\u a ie\c siri ale re\c telei bidirec\c tionale.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\textwidth]{bidirectional_rnn}
-\caption{RNAR bidirec\c tional}
+\caption{RNAR bidirec\c tional\u a}
 \end{figure} 
 
 \section{Word Embeddings}
@@ -152,7 +152,7 @@ Av\^ and modelul antrenat, acesta trebuie folosit pentru predic\c tie, adic\u a 
 \subsection{Greedy}
 
 \paragraph{}
-Precum \^ in teoria clasic\u a a algoritmicii, scopul metodelor greedy este s\u a selecteze \^ intotdeauna optimul local. \^ In cazul de fa\c t\u a, optimul local reprezint\u a cuv\^ antul cu probabilitatea de apari\c tie cea mai mare. Prin acest\u a metod\u a nu este garantat la final c\u a fraza produs\u a este cea mai bun\u a cu putin\c t\u a, deoarece o alt\u a combina\c tie de cuvinte poate produce oric\^ and o fraz\u a cu un scor mai bun\footnote{Sum\u a din logaritmul probilit\u a\c tilor frazei}. Astfel, singurul avantaj al acestei metode este viteza de predic\c tie rapid\u a. \^ In practic\u a, se prefer\u a folosirea unor algoritmi mai complexi, capabili s\u a aleag\u a fraza cea mai potrivit\u a dintr-un set de fraze canditat.
+Precum \^ in teoria clasic\u a a algoritmicii, scopul metodelor greedy este s\u a selecteze la fiecare pas optimul local. \^ In cazul de fa\c t\u a, optimul local reprezint\u a cuv\^ antul cu probabilitatea de apari\c tie cea mai mare. Prin acest\u a metod\u a nu este garantat la final c\u a fraza produs\u a este cea mai bun\u a cu putin\c t\u a, deoarece o alt\u a combina\c tie de cuvinte poate produce oric\^ and o fraz\u a cu un scor mai bun\footnote{De regul\u a se utilizeaz\u a media aritmetic\u a a sumei din logaritmul probilit\u a\c tilor cuvintelor frazei}. Astfel, singurul avantaj al acestei metode este viteza de predic\c tie rapid\u a. \^ In practic\u a, se prefer\u a folosirea unor algoritmi mai complexi, capabili s\u a aleag\u a fraza cea mai potrivit\u a dintr-un set de fraze canditat.
 
 \subsection{Beam search}
 

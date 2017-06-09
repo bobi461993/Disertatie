@@ -71,16 +71,19 @@ Aici intervin mecanismele de aten\c tie. Acestea nu mai captureaz\u a \^ intreag
 \paragraph{}
 Costul ata\c sat acestor mecanisme este destul de mare. Pentru fiecare combina\c tie intrare-ie\c sire trebuie calculat\u a o valoare de aten\c tie \c si stocat\u a. Acest lucru este contraintuitiv, deoarece aten\c tia uman\u a se presupune c\u a economise\c ste resurse computa\c tionale focaliz\^ and doar ce este important. Modelul prezentat analizeaz\u a totul \^ in detaliu \^ inainte de a decide ce este important. Totu\c si, acest lucru nu a \^ impiedicat ca mecanismele de aten\c tie s\u a devin\u a at\^ at de populare \c si s\u a produc\u a rezultate bune pentru o multitudine de sarcini.
 
+\section{Setul de date}
 
+\paragraph{}
+Unul dintre aspectele esen\c tiale de care puterea de procesare Deep Learning profit\u a este cantitatea mare de date. Dac\u a modelele tradi\c tionale de Machine Learning nu reu\c seau s\u a exploateze cre\c sterea volumului de date, modelele Deep Learning nu sufer\u a de aceast neajuns (Figura 5.3). Acest fapt este explicabil prin simplul fapt c\u a modelele tradi\c tionale nu erau suficient de complexe pentru a captura distribu\c tia datelor de intrare. Datorit\u a complexit\u a\c tii sporite a modelelor deep learning, care au avut parte de o explozie de popularitate odat\u a cu cre\c sterea capacit\u a\c tii computa\c tionale, a memoriei pentru stocarea datelor \c si folosirea procesorului grafic pentru a paraleliza calculele pe mii de nuclee, acestea pot surprinde cu u\c surin\c t\u a distribu\c tia unui set de date cu multe \c sabloane. Av\^ and acest beneficiu la dispozi\c tie, modelul actual poate fi \^ imbun\u at\u a\c tit dac\u a este antrenat lu\^ and \^ in considerare o cantitate mai mare de triplete de fraze.
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.6\textwidth]{data_scalability}
+\caption{Scalabilitatea folosind Machine Learning vs Deep Learning}
+\end{figure}
 
-
-
-
-
-
-
-
+\paragraph{}
+Desigur, o cantitate mai mare de date nu \^ inseamn\u a \^ intotdeauna c\u a rezultatul final este mai bun. \^ In urma experimentelor realizate, se poate observa o tendin\c t\u a a chatbot-ului de a fi \^ inclinat c\u atre r\u aspunsuri care se reg\u asesc \^ in setul de antrenare de un numar mare de ori, precum "I'm sorry", "I don't know" etc. Acest fenomen este explicat de faptul c\u a statistic vorbind aceste r\u aspunsuri se apropie foarte mult de media distribu\c tiei datelor de intrare. Acest lucru ridic\u a problema diversit\u a\c tii c\^ at \c si a calit\u a\c tii datelor care sunt furnizate sistemului. O solu\c tie plauzibil\u a este antrenarea folosind diverse seturi de date cunoscute ca fiind de referin\c t\u a pentru sarcini de procesare de limbaj natural, precum The Ubuntu Dialogue Corpus, \c si compararea cu modelul curent.
 
 
 
