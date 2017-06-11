@@ -61,21 +61,32 @@
 \contentsline {paragraph}{}{18}{section*.39}
 \contentsline {paragraph}{}{18}{section*.40}
 \contentsline {chapter}{\numberline {4}Experimente \c si rezultate}{20}{chapter.4}
-\contentsline {chapter}{\numberline {5}Posibile dezvolt\u ari}{21}{chapter.5}
-\contentsline {section}{\numberline {5.1}\^ Inv\u a\c tare prin \^ int\u arire}{21}{section.5.1}
-\contentsline {paragraph}{}{21}{section*.41}
-\contentsline {paragraph}{}{21}{section*.42}
-\contentsline {paragraph}{}{22}{section*.43}
-\contentsline {paragraph}{}{22}{section*.44}
-\contentsline {paragraph}{}{22}{section*.45}
-\contentsline {paragraph}{}{23}{section*.46}
-\contentsline {section}{\numberline {5.2}Mecanisme de aten\c tie}{23}{section.5.2}
-\contentsline {paragraph}{}{23}{section*.47}
-\contentsline {paragraph}{}{23}{section*.48}
-\contentsline {paragraph}{}{23}{section*.49}
-\contentsline {paragraph}{}{24}{section*.50}
-\contentsline {paragraph}{}{24}{section*.51}
-\contentsline {section}{\numberline {5.3}Setul de date}{24}{section.5.3}
-\contentsline {paragraph}{}{24}{section*.52}
-\contentsline {paragraph}{}{25}{section*.53}
-\contentsline {chapter}{\numberline {6}Concluzii}{26}{chapter.6}
+\contentsline {paragraph}{}{20}{section*.41}
+\contentsline {section}{\numberline {4.1}Arhitectura 1.0}{20}{section.4.1}
+\contentsline {paragraph}{}{20}{section*.42}
+\contentsline {section}{\numberline {4.2}Arhitectura 1.5}{21}{section.4.2}
+\contentsline {paragraph}{}{21}{section*.43}
+\contentsline {section}{\numberline {4.3}Arhitectura 2.0}{21}{section.4.3}
+\contentsline {paragraph}{}{21}{section*.44}
+\contentsline {section}{\numberline {4.4}Arhitectura 3.0}{21}{section.4.4}
+\contentsline {paragraph}{}{21}{section*.45}
+\contentsline {section}{\numberline {4.5}Arhitectura 3.5}{22}{section.4.5}
+\contentsline {paragraph}{}{22}{section*.46}
+\contentsline {chapter}{\numberline {5}Posibile dezvolt\u ari}{24}{chapter.5}
+\contentsline {section}{\numberline {5.1}\^ Inv\u a\c tare prin \^ int\u arire}{24}{section.5.1}
+\contentsline {paragraph}{}{24}{section*.47}
+\contentsline {paragraph}{}{24}{section*.48}
+\contentsline {paragraph}{}{25}{section*.49}
+\contentsline {paragraph}{}{25}{section*.50}
+\contentsline {paragraph}{}{25}{section*.51}
+\contentsline {paragraph}{}{26}{section*.52}
+\contentsline {section}{\numberline {5.2}Mecanisme de aten\c tie}{26}{section.5.2}
+\contentsline {paragraph}{}{26}{section*.53}
+\contentsline {paragraph}{}{26}{section*.54}
+\contentsline {paragraph}{}{26}{section*.55}
+\contentsline {paragraph}{}{27}{section*.56}
+\contentsline {paragraph}{}{27}{section*.57}
+\contentsline {section}{\numberline {5.3}Setul de date}{27}{section.5.3}
+\contentsline {paragraph}{}{27}{section*.58}
+\contentsline {paragraph}{}{28}{section*.59}
+\contentsline {chapter}{\numberline {6}Concluzii}{29}{chapter.6}

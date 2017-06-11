@@ -1,0 +1,9 @@
+\begin{thebibliography}{1}
+
+\bibitem{DBLP:journals/corr/SerbanSBCP15}
+Iulian~Vlad Serban, Alessandro Sordoni, Yoshua Bengio, Aaron~C. Courville, and
+  Joelle Pineau.
+\newblock Hierarchical neural network generative models for movie dialogues.
+\newblock {\em CoRR}, abs/1507.04808, 2015.
+
+\end{thebibliography}
