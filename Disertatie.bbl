@@ -1,9 +1,40 @@
 \begin{thebibliography}{1}
 
-\bibitem{DBLP:journals/corr/SerbanSBCP15}
-Iulian~Vlad Serban, Alessandro Sordoni, Yoshua Bengio, Aaron~C. Courville, and
-  Joelle Pineau.
-\newblock Hierarchical neural network generative models for movie dialogues.
-\newblock {\em CoRR}, abs/1507.04808, 2015.
+\bibitem{deep-learning-advancements}
+Forbes.
+\newblock Advances in deep learning will lead to high-tech product
+  breakthroughs.
+\newblock
+  \url{https://www.forbes.com/sites/quora/2016/10/25/advances-in-deep-learning-will-lead-to-high-tech-product-breakthroughs/#30a52b465195}.
+
+\bibitem{Goodfellow-et-al-2016}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock {\em Deep Learning}.
+\newblock MIT Press, 2016.
+\newblock \url{http://www.deeplearningbook.org}.
+
+\bibitem{sep-turing-test}
+Graham Oppy and David Dowe.
+\newblock The turing test.
+\newblock In Edward~N. Zalta, editor, {\em The Stanford Encyclopedia of
+  Philosophy}. Metaphysics Research Lab, Stanford University, spring 2016
+  edition, 2016.
+
+\bibitem{business-chat-bots}
+Gerardo Salandra.
+\newblock Does your business need a chatbot?
+\newblock \url{https://rocketbots.io/blog/business-need-chatbot/}.
+
+\bibitem{support-chat-bots}
+Tom Simonite.
+\newblock Customer service chatbots are about to become frighteningly
+  realistic.
+\newblock
+  \url{https://www.technologyreview.com/s/603895/customer-service-chatbots-are-about-to-become-frighteningly-realistic/}.
+
+\bibitem{chatbot-models}
+Pavel Surmenok.
+\newblock Chatbot architecture.
+\newblock \url{http://pavel.surmenok.com/2016/09/11/chatbot-architecture/}.
 
 \end{thebibliography}
