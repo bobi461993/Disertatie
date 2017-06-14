@@ -1,7 +1,7 @@
 \chapter{Experimente \c si rezultate}
 
 \paragraph{}
-Acest capitol prezint\u a configura\c tiile arhitecturale \^ incercate, cele care au avut succes precum \c si rezultatele finale ob\c tinute de c\u atre sistem. Pentru validarea modelului ob\c tinut s-a realizat o scalare progresiv\u a a num\u arului de date de intrare, acesta fiind supus la dou\u a teste principale. Unul dintre teste a fost ca pentru pu\c tine exemple de intrare, modelul s\u a fie capabil s\u a \^ inve\c te mot a mot s\u a produc\u a r\u aspunsuri precum \^ in setul de antrenare (overfitting). Un alt test a fost ca atunci c\^ and num\u arul de intr\u ari este crescut considerabil, sistemul s\u a nu produc\u a \^ intotdeauna r\u asupunsuri monotone. Metrica de evaluare principal\u a a sistemului a fost cea uman\u a, ca \c si \^ in cazul testului Turing.
+Acest capitol prezint\u a configura\c tiile arhitecturale \^ incercate, cele care au avut succes precum \c si rezultatele finale ob\c tinute de c\u atre sistem. Pentru validarea modelului ob\c tinut s-a realizat o scalare progresiv\u a a num\u arului de date de intrare, acesta fiind supus la dou\u a teste principale. Unul dintre teste a fost ca pentru pu\c tine exemple de intrare, modelul s\u a fie capabil s\u a \^ inve\c te mot a mot s\u a produc\u a r\u aspunsuri precum \^ in setul de antrenare (overfitting). Un alt test a fost ca atunci c\^ and num\u arul de intr\u ari este crescut considerabil, sistemul s\u a nu produc\u a \^ intotdeauna r\u asupunsuri monotone. Metricile de evaluare principale ale sistemului au fost cea uman\u a \c si word perplexity.
 
 \section{Set de date}
 
@@ -40,9 +40,72 @@ Arhitectura 3.0 a adus cu sine un progres important spre atingerea obiectivului 
 \paragraph{}
 Deoarece setul de date con\c tine subtitr\u ari din filme, este un lucru obi\c snuit ca majoritatea r\u aspunsurilor s\u a fie monotone. Astfel, se creeaz\u a o tendin\c t\u a pentru anumite cuvinte care apar foarte des, cele rare fiind aproape ignorate de c\u atre sistem. De aceea, sistemul e\c sueaz\u a \^ in a furniza r\u aspunsuri diversificate, care s\u a con\c tin\u a \c si cuvinte rare. Acest neajuns se poate rezolva prin folosirea ponderilor pentru cuvinte \^ in momentul c\^ and este calculat\u a valoarea func\c tiei de eroare. Ponderea pentru fiecare cuv\^ ant va fi num\u arul de apari\c tii \(/\) num\u arul total de cuvinte. Prin aceast\u a metod\u a se asigur\u a c\u a sistemul consider\u a influen\c ta egal\u a a tuturor cuvintelor nemaiav\^ and o predispozi\c tie c\u atre cele care apar des. Dimensiunea ie\c sirilor codor, context, decodor au fost alese ca fiind 500, 300, 500 pentru cre\c sterea u\c soar\u a a complexit\u a\c tii modelului. \^ In urma antren\u arii se putea observa c\u a modelul r\u am\^ ane blocat \^ in anumite regiuni de minim local. Acest aspect a fost \^ inl\u aturat prin reducerea progresiv\u a a constantei de \^ inv\u a\c tare de-a lungul instruirii, atunci c\^ and valoarea func\c tiei de eroare nu sc\u adea pe parcursul a cinci epoci consecutive cu mai mult de o valoare \(\epsilon\) aleas\u a. Factorul de reducere a fost ales ca fiind \(75\%\). Aceast\u a combina\c tie de ponderi \^ impreun\u a cu reducerea treptat\u a a constantei de \^ inv\u a\c tare au reprezentat succesul care au produs convergen\c ta modelului curent \c si totodat\u a apari\c tia rezultatelor satisf\u ac\u atoare.
 
+\section{Rezultate}
 
+\subsection{Word perplexity}
 
+\paragraph{}
+Evaluarea precis\u a a modelelor lingvistice care nu sunt bazate pe un topic restr\^ ans reprezint\u a o problem\u a deschis\u a. Nu exist\u a o metric\u a bine stabilit\u a pentru evaluarea automat\u a, iar evaluarea uman\u a este costisitoare. Cu toate acestea, pentru modele probabilistice ligvistice, word perplexity este o metric\u a recunoscut\u a, fiind sugerat\u a \c si cu alte ocazii pentru modele de dialog generative. Word perplexity este definit ca:
 
+\begin{equation}
+perplexity = e^{-\sum_{x}\tilde{p}(x)\log{q(x)}}
+\end{equation}
+
+\paragraph{}
+Exponentul ecua\c tiei 4.1 reprezint\u a valoarea de cross entropy a modelului evaluat pe setul de date de test. O valoarea perplexity mai mic\u a este indica\c tia unui model mai bun. Metrica m\u asoar\u a abilitatea modelului de a lua \^ in considerare structura sintactic\u a a dialogului (schimbul de replici), precum \c si structura sintactic\u a a fiec\u arei fraze (semnele de punctua\c tie). \^ In generarea de dialog, distribu\c tia cuvintelor din fraza urm\u atoare este multi-modal\u a (exist\u a o mul\c time de r\u aspunsuri potrivite), aspect ce recomand\u a folosirea acestei metrici, deoarece aceasta va m\u asura \^ intotdeauna probabilitatea de regenerare a exact frazei de referin\c t\u a. Modelul curent a ob\c tinut o valoare word perplexity de \textbf{118.74} pentru setul de test. Acest num\u ar se poate traduce prin faptul c\u a modelul este confuz ca \c si cum ar avea de ales uniform \c si independent dintre 119 posibilit\u a\c ti pentru fiecare cuv\^ ant.
+
+\paragraph{}
+Desigur, word perplexity nu reprezint\u a metrica ideal\u a de evaluare a unui model ligvistic, deoarece un model cu o valoare mic\u a ob\c tinut\u a pe un set de test prezint\u a riscul de a nu performa la fel de bine \^ intr-o aplica\c tie real\u a a c\u arei date nu provin din aceea\c si distribu\c tie ca a setului de test. Totu\c si, \^ in lipsa unei metrici eficiente de a m\u asura performan\c ta unui sistem dialog, word perplexity ofer\u a o alternativ\u a suficient de bun\u a pentru moment.
+
+\subsection{Evaluare uman\u a}
+
+\paragraph{}
+De\c si costisitoare din punct de vedere al timpului, evaluarea uman\u a reprezint\u a poate cea mai bun\u a metric\u a curent\u a de evaluare a unui model generativ lingvistic, \^ incadrandu-se \^ in acela\c si timp cu ideea din spatele testului Turing. 
+
+\begin{center}
+  \begin{tabular}{ | m{6.5cm} | m{6.5cm} |}
+    \hline
+    Persoan\u a real\u a & Chatbot \\ \hline
+    Hi! & Hi. \\ 
+    Are you ok? & Yes \\ 
+    Anything else? & Uh. Yeah. \\
+    What is it? & Well, I'd have to go back to New York anyway. I spent so much money on television. \\
+    \hline
+  \end{tabular}
+\end{center}
+
+\begin{center}
+  \begin{tabular}{ | m{6.5cm} | m{6.5cm} |}
+    \hline
+    Persoan\u a real\u a & Chatbot \\ \hline
+    You are a shame. & I've never known a long way to do it anyway. \\ 
+    Are you proud of yourself? & I want you to go back to the hotel. I want you to leave. For me. \\ 
+    I will probably do that. & Well, I'm in town for a few years now. I'd like to go to sleep. \\
+    \hline
+  \end{tabular}
+\end{center}
+
+\begin{center}
+  \begin{tabular}{ | m{6.5cm} | m{6.5cm} |}
+    \hline
+    Persoan\u a real\u a & Chatbot \\ \hline
+    Do you know this guy? & He'll be here. I'm sorry for nothing to worry about. I'll survive some days. \\ 
+    I hope I can trust you. & You don't understand. I don't believe you. \\ 
+    I am a man of my word. & You know what I'm gonna do. \\
+    \hline
+  \end{tabular}
+\end{center}
+
+\begin{center}
+  \begin{tabular}{ | m{6.5cm} | m{6.5cm} |}
+    \hline
+    Persoan\u a real\u a & Chatbot \\ \hline
+    Are you a robot? & What are you doing? \\
+    Do you have feelings? & I don't know what you are talking about. \\
+    Tell me about yourself. & I know. It's not logical, it's not what I can do. Forget it. \\
+    \hline
+  \end{tabular}
+\end{center}
 
 
 

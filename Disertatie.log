@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.29)  13 JUN 2017 15:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.28)  14 JUN 2017 23:44
 entering extended mode
 **./Disertatie.tex
 (Disertatie.tex
-LaTeX2e <2017/01/01> patch level 1
+LaTeX2e <2017-04-15>
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-(D:\ProgramFiles\MikTex\tex\latex\base\report.cls
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(D:\ProgramFiles\MikTex\tex\latex\base\size12.clo
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,7 +22,7 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(D:\ProgramFiles\MikTex\tex\latex\amsfonts\amsfonts.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks14
 \symAMSa=\mathgroup4
@@ -30,24 +30,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(D:\ProgramFiles\MikTex\tex\latex\amsmath\amsmath.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(D:\ProgramFiles\MikTex\tex\latex\amsmath\amstext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(D:\ProgramFiles\MikTex\tex\latex\amsmath\amsgen.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
 \ex@=\dimen103
 ))
-(D:\ProgramFiles\MikTex\tex\latex\amsmath\amsbsy.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen104
 )
-(D:\ProgramFiles\MikTex\tex\latex\amsmath\amsopn.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count88
@@ -88,7 +88,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(D:\ProgramFiles\MikTex\tex\latex\amscls\amsthm.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks20
 \thm@bodyfont=\toks21
@@ -100,31 +100,31 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@headsep=\skip48
 \dth@everypar=\toks25
 )
-(D:\ProgramFiles\MikTex\tex\latex\graphics\graphicx.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(D:\ProgramFiles\MikTex\tex\latex\graphics\keyval.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks26
 )
-(D:\ProgramFiles\MikTex\tex\latex\graphics\graphics.sty
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-(D:\ProgramFiles\MikTex\tex\latex\graphics\trig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(D:\ProgramFiles\MikTex\tex\latex\graphics-cfg\graphics.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(D:\ProgramFiles\MikTex\tex\latex\graphics-def\pdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
-(D:\ProgramFiles\MikTex\tex\generic\oberdiek\infwarerr.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(D:\ProgramFiles\MikTex\tex\generic\oberdiek\ltxcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count100
@@ -132,33 +132,33 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-(D:\ProgramFiles\MikTex\tex\latex\graphics\color.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(D:\ProgramFiles\MikTex\tex\latex\graphics-cfg\color.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-(D:\ProgramFiles\MikTex\tex\generic\babel\babel.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2016/04/23 3.9r The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\z003jmtj\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+(C:\Users\bogda_000\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\z003jmtj\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-romanian\romanian
-.ldf
+(C:\Users\bogda_000\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-romanian\romania
+n.ldf
 Language: romanian 2005/03/31 v1.2l Romanian support from the babel system
- (D:\ProgramFiles\MikTex\tex\generic\babel\babel.def
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count101
 \U@D=\dimen114
 )))
-(C:\Users\z003jmtj\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
+(C:\Users\bogda_000\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
 \wrapoverhang=\dimen115
 \WF@size=\dimen116
 \c@WF@wrappedlines=\count102
@@ -166,10 +166,10 @@ File: babel.def 2016/04/23 3.9r Babel common definitions
 \WF@everypar=\toks27
 Package: wrapfig 2003/01/31  v 3.6
 )
-(C:\Users\z003jmtj\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithmic.
-sty
+(C:\Users\bogda_000\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithmic
+.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
- (D:\ProgramFiles\MikTex\tex\latex\base\ifthen.sty
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@ALC@unique=\count103
@@ -179,11 +179,11 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \ALC@tlm=\skip49
 \algorithmicindent=\skip50
 )
-(C:\Users\z003jmtj\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithm.st
-y
+(C:\Users\bogda_000\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithm.s
+ty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
- (D:\ProgramFiles\MikTex\tex\latex\float\float.sty
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count107
 \float@exts=\toks28
@@ -194,14 +194,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@every@algorithm=\toks30
 \c@algorithm=\count108
 )
-(D:\ProgramFiles\MikTex\tex\latex\hyperref\hyperref.sty
-Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
-(D:\ProgramFiles\MikTex\tex\generic\oberdiek\hobsub-hyperref.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(D:\ProgramFiles\MikTex\tex\generic\oberdiek\hobsub-generic.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -211,7 +211,7 @@ Package ifluatex Info: LuaTeX not detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -219,7 +219,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -241,54 +241,54 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(D:\ProgramFiles\MikTex\tex\generic\ifxetex\ifxetex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(D:\ProgramFiles\MikTex\tex\latex\oberdiek\auxhook.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(D:\ProgramFiles\MikTex\tex\latex\oberdiek\kvoptions.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen117
 \Hy@linkcounter=\count109
 \Hy@pagecounter=\count110
 
-(D:\ProgramFiles\MikTex\tex\latex\hyperref\pd1enc.def
-File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count111
 
-(D:\ProgramFiles\MikTex\tex\latex\00miktex\hyperref.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4486.
-Package hyperref Info: Link nesting OFF on input line 4491.
-Package hyperref Info: Hyper index ON on input line 4494.
-Package hyperref Info: Plain pages OFF on input line 4501.
-Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4735.
+Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count112
 
-(C:\Users\z003jmtj\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+(C:\Users\bogda_000\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5088.
+LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen118
 \Fld@menulength=\count113
 \Field@Width=\dimen119
 \Fld@charsize=\dimen120
-Package hyperref Info: Hyper figures OFF on input line 6342.
-Package hyperref Info: Link nesting OFF on input line 6347.
-Package hyperref Info: Hyper index ON on input line 6350.
-Package hyperref Info: backreferencing OFF on input line 6357.
-Package hyperref Info: Link coloring OFF on input line 6362.
-Package hyperref Info: Link coloring with OCG OFF on input line 6367.
-Package hyperref Info: PDF/A mode OFF on input line 6372.
-LaTeX Info: Redefining \ref on input line 6412.
-LaTeX Info: Redefining \pageref on input line 6416.
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
 \Hy@abspage=\count114
 \c@Item=\count115
 \c@Hfootnote=\count116
@@ -296,19 +296,19 @@ LaTeX Info: Redefining \pageref on input line 6416.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(D:\ProgramFiles\MikTex\tex\latex\hyperref\hpdftex.def
-File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
 \Fld@listcount=\count117
 \c@bookmark@seq@number=\count118
 
-(D:\ProgramFiles\MikTex\tex\latex\oberdiek\rerunfilecheck.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip51
 )
-(C:\Users\z003jmtj\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+(C:\Users\bogda_000\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
 \lst@mode=\count119
 \lst@gtempboxa=\box31
 \lst@token=\toks31
@@ -322,60 +322,68 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \lst@lineno=\count124
 \lst@maxwidth=\dimen124
 
-(C:\Users\z003jmtj\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+(C:\Users\bogda_000\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count125
 \lst@skipnumbers=\count126
 \lst@framebox=\box32
 )
-(C:\Users\z003jmtj\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+(C:\Users\bogda_000\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
-(D:\ProgramFiles\MikTex\tex\latex\multirow\multirow.sty
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip52
 \multirow@cntb=\count127
 \multirow@dima=\skip53
 \bigstrutjot=\dimen125
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen126
+\extrarowheight=\dimen127
+\NC@list=\toks32
+\extratabsurround=\skip54
+\backup@length=\skip55
 ) (Disertatie.aux
 (Coperta.aux) (Cap1_Introducere.aux) (Cap2_LucrariSimilare.aux)
 (Cap3_Arhitectura.aux) (Cap4_ExperimenteRezultate.aux)
 (Cap5_PosibileDezvoltari.aux) (Cap6_Concluzii.aux))
 \openout1 = `Disertatie.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
-(C:\Users\z003jmtj\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+(C:\Users\bogda_000\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count128
-\scratchdimen=\dimen126
+\scratchdimen=\dimen128
 \scratchbox=\box33
 \nofMPsegments=\count129
 \nofMParguments=\count130
-\everyMPshowfont=\toks32
+\everyMPshowfont=\toks33
 \MPscratchCnt=\count131
-\MPscratchDim=\dimen127
+\MPscratchDim=\dimen129
 \MPnumerator=\count132
 \makeMPintoPDFobject=\count133
-\everyMPtoPDFconversion=\toks33
-) (D:\ProgramFiles\MikTex\tex\latex\oberdiek\epstopdf-base.sty
+\everyMPtoPDFconversion=\toks34
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(D:\ProgramFiles\MikTex\tex\latex\oberdiek\grfext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -386,19 +394,19 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring OFF on input line 16.
+Package hyperref Info: Link coloring OFF on input line 17.
 
-(D:\ProgramFiles\MikTex\tex\latex\hyperref\nameref.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(D:\ProgramFiles\MikTex\tex\generic\oberdiek\gettitlestring.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count134
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
+LaTeX Info: Redefining \nameref on input line 17.
 
 (Disertatie.out) (Disertatie.out)
 \@outlinefile=\write3
@@ -410,15 +418,15 @@ LaTeX Info: Redefining \nameref on input line 16.
  (Coperta.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
-(D:\ProgramFiles\MikTex\tex\latex\amsfonts\umsa.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
-(D:\ProgramFiles\MikTex\tex\latex\amsfonts\umsb.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<./imagini/logo_facultate.png, id=147, 569.12625pt x 569.12625pt>
+<./imagini/logo_facultate.png, id=163, 569.12625pt x 569.12625pt>
 File: ./imagini/logo_facultate.png Graphic file (type png)
 
 <use ./imagini/logo_facultate.png>
@@ -432,12 +440,12 @@ Overfull \hbox (32.83711pt too wide) in paragraph at lines 6--17
 [1
 
 
-{C:/Users/z003jmtj/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./imagin
-i/logo_facultate.png>]) (Disertatie.tocpdfTeX warning (ext4): destination with 
-the same identifier (name{page.1}) has been already used, duplicate ignored
+{C:/Users/bogda_000/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./imagi
+ni/logo_facultate.png>]) (Disertatie.tocpdfTeX warning (ext4): destination with
+ the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 ...3.4}Arhitectura 3.0}{22}{subsection.4.3.4}
+l.76 ...3.3}Arhitectura 2.0}{22}{subsection.4.3.3}
                                                    [1
 
 
@@ -499,14 +507,14 @@ Package hyperref Warning: Glyph not defined in PD1 encoding,
 
 
 
-] <./imagini/duolingo.png, id=244, 357.335pt x 510.90875pt>
+] <./imagini/duolingo.png, id=264, 357.335pt x 510.90875pt>
 File: ./imagini/duolingo.png Graphic file (type png)
 
 <use ./imagini/duolingo.png>
 Package pdftex.def Info: ./imagini/duolingo.png used on input line 21.
 (pdftex.def)             Requested size: 117.00119pt x 167.28291pt.
 
-<./imagini/facebook.jpeg, id=245, 803.0pt x 534.99875pt>
+<./imagini/facebook.jpeg, id=265, 803.0pt x 534.99875pt>
 File: ./imagini/facebook.jpeg Graphic file (type jpg)
 
 <use ./imagini/facebook.jpeg>
@@ -522,7 +530,7 @@ Package hyperref Warning: Composite letter `\textcedilla+t'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textcedilla' on input line 6.
 
-<./imagini/deep_neural_network.png, id=260, 488.26317pt x 264.40244pt>
+<./imagini/deep_neural_network.png, id=280, 488.26317pt x 264.40244pt>
 File: ./imagini/deep_neural_network.png Graphic file (type png)
 
 <use ./imagini/deep_neural_network.png>
@@ -539,7 +547,7 @@ Package hyperref Warning: Composite letter `\textcedilla+t'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textcedilla' on input line 26.
 
-<./imagini/rnn_network.png, id=269, 977.8131pt x 256.91985pt>
+<./imagini/rnn_network.png, id=289, 977.8131pt x 256.91985pt>
 File: ./imagini/rnn_network.png Graphic file (type png)
 
 <use ./imagini/rnn_network.png>
@@ -547,14 +555,14 @@ Package pdftex.def Info: ./imagini/rnn_network.png used on input line 33.
 (pdftex.def)             Requested size: 350.99762pt x 92.22449pt.
  [10 <./imagini/deep_neural_network.png>]
 [11 <./imagini/rnn_network.png>]
-<./imagini/seq2seq.png, id=298, 481.04718pt x 239.39438pt>
+<./imagini/seq2seq.png, id=318, 481.04718pt x 239.39438pt>
 File: ./imagini/seq2seq.png Graphic file (type png)
 
 <use ./imagini/seq2seq.png>
 Package pdftex.def Info: ./imagini/seq2seq.png used on input line 63.
 (pdftex.def)             Requested size: 312.00119pt x 155.27208pt.
  [12 <./imagini/seq2seq.png>]
-<./imagini/hred.png, id=310, 1161.33875pt x 584.1825pt>
+<./imagini/hred.png, id=330, 1161.33875pt x 584.1825pt>
 File: ./imagini/hred.png Graphic file (type png)
 
 <use ./imagini/hred.png>
@@ -564,7 +572,7 @@ Package pdftex.def Info: ./imagini/hred.png used on input line 80.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 103.
 
 
-(D:\ProgramFiles\MikTex\tex\latex\base\omscmr.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
@@ -575,7 +583,7 @@ Package hyperref Warning: Composite letter `\textcedilla+t'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textcedilla' on input line 111.
 
-<./imagini/bidirectional_rnn.png, id=325, 243.7908pt x 278.7213pt>
+<./imagini/bidirectional_rnn.png, id=345, 243.7908pt x 278.7213pt>
 File: ./imagini/bidirectional_rnn.png Graphic file (type png)
 
 <use ./imagini/bidirectional_rnn.png>
@@ -583,7 +591,7 @@ Package pdftex.def Info: ./imagini/bidirectional_rnn.png used on input line 118
 .
 (pdftex.def)             Requested size: 195.0pt x 222.94756pt.
  [15 <./imagini/bidirectional_rnn.png>]
-<./imagini/word_embeddings.png, id=334, 996.72375pt x 816.04875pt>
+<./imagini/word_embeddings.png, id=354, 996.72375pt x 816.04875pt>
 File: ./imagini/word_embeddings.png Graphic file (type png)
 
 <use ./imagini/word_embeddings.png>
@@ -600,7 +608,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-[18] <./imagini/beam_search.png, id=363, 613.54219pt x 437.38406pt>
+[18] <./imagini/beam_search.png, id=383, 613.54219pt x 437.38406pt>
 File: ./imagini/beam_search.png Graphic file (type png)
 
 <use ./imagini/beam_search.png>
@@ -621,7 +629,32 @@ Package hyperref Warning: Composite letter `\textcedilla+s'
 
 
 
-] [21] [22]) [23]
+] [21] [22] [23]
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\u' on input line 60.
+
+
+Overfull \hbox (5.08578pt too wide) in paragraph at lines 66--75
+ [] 
+ []
+
+[24]
+Overfull \hbox (5.08578pt too wide) in paragraph at lines 78--86
+ [] 
+ []
+
+
+Overfull \hbox (5.08578pt too wide) in paragraph at lines 89--97
+ [] 
+ []
+
+
+Overfull \hbox (5.08578pt too wide) in paragraph at lines 100--108
+ [] 
+ []
+
+) [25]
 \openout2 = `Cap5_PosibileDezvoltari.aux'.
 
  (Cap5_PosibileDezvoltari.tex
@@ -643,11 +676,11 @@ Package hyperref Warning: Composite letter `\textcedilla+t'
 Package hyperref Warning: Glyph not defined in PD1 encoding,
 (hyperref)                removing `\u' on input line 3.
 
-[24
+[26
 
 
 
-] <./imagini/reinforcement_learning.png, id=407, 435.6275pt x 175.65625pt>
+] <./imagini/reinforcement_learning.png, id=443, 435.6275pt x 175.65625pt>
 File: ./imagini/reinforcement_learning.png Graphic file (type png)
 
 <use ./imagini/reinforcement_learning.png>
@@ -660,32 +693,32 @@ Overfull \hbox (10.92442pt too wide) in paragraph at lines 37--38
 i-nea gra-ma-ti-cala si coeren[]a raspunsului 
  []
 
-[25 <./imagini/reinforcement_learning.png>]
+[27 <./imagini/reinforcement_learning.png>]
 
 Package hyperref Warning: Composite letter `\textcedilla+t'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textcedilla' on input line 51.
 
-<./imagini/attention_model.png, id=417, 292.09125pt x 372.39125pt>
+<./imagini/attention_model.png, id=453, 292.09125pt x 372.39125pt>
 File: ./imagini/attention_model.png Graphic file (type png)
 
 <use ./imagini/attention_model.png>
 Package pdftex.def Info: ./imagini/attention_model.png used on input line 64.
 (pdftex.def)             Requested size: 155.99762pt x 198.88925pt.
- [26] [27 <./imagini/attention_model.png>]
-<./imagini/data_scalability.jpg, id=437, 377.0085pt x 287.8755pt>
+ [28] [29 <./imagini/attention_model.png>]
+<./imagini/data_scalability.jpg, id=473, 377.0085pt x 287.8755pt>
 File: ./imagini/data_scalability.jpg Graphic file (type jpg)
 
 <use ./imagini/data_scalability.jpg>
 Package pdftex.def Info: ./imagini/data_scalability.jpg used on input line 81.
 (pdftex.def)             Requested size: 234.00238pt x 178.67862pt.
-) [28 <./imagini/data_scalability.jpg>]
+) [30 <./imagini/data_scalability.jpg>]
 \openout2 = `Cap6_Concluzii.aux'.
 
 
 (Cap6_Concluzii.tex
 Capitolul 6.
-) [29
+) [31
 
 
 
@@ -708,44 +741,54 @@ ighteningly-[]realistic/$[]\OT1/cmr/m/n/12 .
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 31.
- [30
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
+ [32
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 31.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
  (Disertatie.aux (Coperta.aux) (Cap1_Introducere.aux)
 (Cap2_LucrariSimilare.aux) (Cap3_Arhitectura.aux)
 (Cap4_ExperimenteRezultate.aux) (Cap5_PosibileDezvoltari.aux)
 (Cap6_Concluzii.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 31.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 31.
-Package rerunfilecheck Info: File `Disertatie.out' has not changed.
-(rerunfilecheck)             Checksum: 78586E3631F8E3DF8AE1BA3BB6D4E9FC;2372.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 31.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 32.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 32.
+
+
+Package rerunfilecheck Warning: File `Disertatie.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Disertatie.out':
+(rerunfilecheck)             Before: 51D24C836BDBF848627870C4DDC5D226;2630
+(rerunfilecheck)             After:  986EF819DF76F12249F5C6505DD9FE75;2629.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 32.
  ) 
 Here is how much of TeX's memory you used:
- 8148 strings out of 493333
- 117726 string characters out of 3141366
- 222550 words of memory out of 3000000
- 11336 multiletter control sequences out of 15000+200000
+ 8208 strings out of 493328
+ 119028 string characters out of 3139112
+ 223434 words of memory out of 3000000
+ 11384 multiletter control sequences out of 15000+200000
  13871 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,15n,33p,2656b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/ProgramFiles/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Program
-Files/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/ProgramFiles/MikTex/
-fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/ProgramFiles/MikTex/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb><D:/ProgramFiles/MikTex/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><D:/ProgramFiles/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-<D:/ProgramFiles/MikTex/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/ProgramFil
-es/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/ProgramFiles/MikTex/fonts
-/type1/public/amsfonts/cm/cmr8.pfb><D:/ProgramFiles/MikTex/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><D:/ProgramFiles/MikTex/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb><D:/ProgramFiles/MikTex/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/P
-rogramFiles/MikTex/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Disertatie.pdf (31 pages, 1189042 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Disertatie.pdf (33 pages, 1201581 bytes).
 PDF statistics:
- 542 PDF objects out of 1000 (max. 8388607)
- 160 named destinations out of 1000 (max. 500000)
- 354 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 586 PDF objects out of 1000 (max. 8388607)
+ 172 named destinations out of 1000 (max. 500000)
+ 386 words of extra memory for PDF output out of 10000 (max. 10000000)
 
