@@ -1,4 +1,82 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{DBLP:journals/corr/AbadiABBCCCDDDG16}
+Mart{\'{\i}}n Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen,
+  Craig Citro, Gregory~S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin,
+  Sanjay Ghemawat, Ian~J. Goodfellow, Andrew Harp, Geoffrey Irving, Michael
+  Isard, Yangqing Jia, Rafal J{\'{o}}zefowicz, Lukasz Kaiser, Manjunath Kudlur,
+  Josh Levenberg, Dan Man{\'{e}}, Rajat Monga, Sherry Moore, Derek~Gordon
+  Murray, Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya
+  Sutskever, Kunal Talwar, Paul~A. Tucker, Vincent Vanhoucke, Vijay Vasudevan,
+  Fernanda~B. Vi{\'{e}}gas, Oriol Vinyals, Pete Warden, Martin Wattenberg,
+  Martin Wicke, Yuan Yu, and Xiaoqiang Zheng.
+\newblock Tensorflow: Large-scale machine learning on heterogeneous distributed
+  systems.
+\newblock {\em CoRR}, abs/1603.04467, 2016.
+
+\bibitem{biological-inpiration}
+Abu-Mostafa.
+\newblock Neural networks - biological inspiration.
+\newblock \url{https://work.caltech.edu/library/103.html}.
+
+\bibitem{DBLP:journals/corr/BahdanauCB14}
+Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio.
+\newblock Neural machine translation by jointly learning to align and
+  translate.
+\newblock {\em CoRR}, abs/1409.0473, 2014.
+
+\bibitem{Banchs:2012:MMD:2390665.2390716}
+Rafael~E. Banchs.
+\newblock Movie-dic: A movie dialogue corpus for research and development.
+\newblock In {\em Proceedings of the 50th Annual Meeting of the Association for
+  Computational Linguistics: Short Papers - Volume 2}, ACL '12, pages 203--207,
+  Stroudsburg, PA, USA, 2012. Association for Computational Linguistics.
+
+\bibitem{Bengio:2003:NPL:944919.944966}
+Yoshua Bengio, R{\'e}jean Ducharme, Pascal Vincent, and Christian Janvin.
+\newblock A neural probabilistic language model.
+\newblock {\em J. Mach. Learn. Res.}, 3:1137--1155, March 2003.
+
+\bibitem{cpu-vs-gpu}
+Dimitrios Bizopoulus.
+\newblock Gpu vs cpu in convolutional neural networks using tensorflow.
+\newblock
+  \url{https://relinklabs.com/gpu-vs-cpu-in-convolutional-neural-networks-using-tensorflow}.
+
+\bibitem{deep-learning-mode-data}
+Jason Brownlee.
+\newblock How to improve deep learning performance.
+\newblock
+  \url{http://machinelearningmastery.com/improve-deep-learning-performance/}.
+
+\bibitem{deep-learning-turing-test}
+Ellie Burns.
+\newblock From the turing test to deep learning: Artificial intelligence goes
+  mainstream.
+\newblock
+  \url{http://www.cbronline.com/4th-revolution/from-the-turing-test-to-deep-learning-artificial-intelligence-goes-mainstream/}.
+
+\bibitem{chollet2015keras}
+Fran\c{c}ois Chollet et~al.
+\newblock Keras.
+\newblock \url{https://github.com/fchollet/keras}, 2015.
+
+\bibitem{DBLP:journals/corr/ChungGCB14}
+Junyoung Chung, {\c{C}}aglar G{\"{u}}l{\c{c}}ehre, KyungHyun Cho, and Yoshua
+  Bengio.
+\newblock Empirical evaluation of gated recurrent neural networks on sequence
+  modeling.
+\newblock {\em CoRR}, abs/1412.3555, 2014.
+
+\bibitem{facebook-messenger}
+Josh Costine.
+\newblock Facebook will launch group chatbots at f8.
+\newblock \url{https://techcrunch.com/2017/03/29/facebook-group-bots/}.
+
+\bibitem{duolingo}
+Jill Duffy.
+\newblock Duolingo.
+\newblock \url{http://uk.pcmag.com/duolingo/18817/review/duolingo}.
 
 \bibitem{deep-learning-advancements}
 Forbes.
@@ -13,6 +91,88 @@ Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
 \newblock MIT Press, 2016.
 \newblock \url{http://www.deeplearningbook.org}.
 
+\bibitem{rmsprop}
+Geoffrey Hinton.
+\newblock Overview of mini-batch gradient descent.
+\newblock
+  \url{http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf}.
+
+\bibitem{Hochreiter:1998:VGP:353515.355233}
+Sepp Hochreiter.
+\newblock The vanishing gradient problem during learning recurrent neural nets
+  and problem solutions.
+\newblock {\em Int. J. Uncertain. Fuzziness Knowl.-Based Syst.}, 6(2):107--116,
+  April 1998.
+
+\bibitem{Hochreiter:1997:LSM:1246443.1246450}
+Sepp Hochreiter and J\"{u}rgen Schmidhuber.
+\newblock Long short-term memory.
+\newblock {\em Neural Comput.}, 9(8):1735--1780, November 1997.
+
+\bibitem{jia2014caffe}
+Yangqing Jia, Evan Shelhamer, Jeff Donahue, Sergey Karayev, Jonathan Long, Ross
+  Girshick, Sergio Guadarrama, and Trevor Darrell.
+\newblock Caffe: Convolutional architecture for fast feature embedding.
+\newblock {\em arXiv preprint arXiv:1408.5093}, 2014.
+
+\bibitem{johnson2007elementary}
+R.~Johnson and P.~Kuby.
+\newblock {\em Elementary Statistics, Enhanced Review Edition}.
+\newblock Cengage Learning, 2007.
+
+\bibitem{cnn-features}
+Andrej Karpathy.
+\newblock Cs231n convolutional neural networks for visual recognition.
+\newblock \url{http://cs231n.github.io/convolutional-networks/}.
+
+\bibitem{DBLP:journals/corr/KingmaB14}
+Diederik~P. Kingma and Jimmy Ba.
+\newblock Adam: {A} method for stochastic optimization.
+\newblock {\em CoRR}, abs/1412.6980, 2014.
+
+\bibitem{DBLP:journals/corr/LiMRGGJ16}
+Jiwei Li, Will Monroe, Alan Ritter, Michel Galley, Jianfeng Gao, and Dan
+  Jurafsky.
+\newblock Deep reinforcement learning for dialogue generation.
+\newblock {\em CoRR}, abs/1606.01541, 2016.
+
+\bibitem{DBLP:journals/corr/LowePSP15}
+Ryan Lowe, Nissan Pow, Iulian Serban, and Joelle Pineau.
+\newblock The ubuntu dialogue corpus: {A} large dataset for research in
+  unstructured multi-turn dialogue systems.
+\newblock {\em CoRR}, abs/1506.08909, 2015.
+
+\bibitem{doi:10.1093/imamat/24.1.59}
+R.~B. MARIMONT and M.~B. SHAPIRO.
+\newblock Nearest neighbour searches and the curse of dimensionality.
+\newblock {\em IMA Journal of Applied Mathematics}, 24(1):59, 1979.
+
+\bibitem{word2vec}
+Chris McCormick.
+\newblock Google's trained word2vec model in python.
+\newblock
+  \url{http://mccormickml.com/2016/04/12/googles-pretrained-word2vec-model-in-python/}.
+
+\bibitem{DBLP:journals/corr/MikolovSCCD13}
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, and Jeffrey Dean.
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock {\em CoRR}, abs/1310.4546, 2013.
+
+\bibitem{Mozer:1995:FBA:201784.201791}
+Michael~C. Mozer.
+\newblock Backpropagation.
+\newblock chapter A Focused Backpropagation Algorithm for Temporal Pattern
+  Recognition, pages 137--169. L. Erlbaum Associates Inc., Hillsdale, NJ, USA,
+  1995.
+
+\bibitem{norvig1992paradigms}
+P.~Norvig.
+\newblock {\em Paradigms of Artificial Intelligence Programming: Case Studies
+  in Common LISP}.
+\newblock Artificial intelligence programming languages. Morgan Kaufman
+  Publishers, 1992.
+
 \bibitem{sep-turing-test}
 Graham Oppy and David Dowe.
 \newblock The turing test.
@@ -20,10 +180,51 @@ Graham Oppy and David Dowe.
   Philosophy}. Metaphysics Research Lab, Stanford University, spring 2016
   edition, 2016.
 
+\bibitem{Rabiner:1990:THM:108235.108253}
+Lawrence~R. Rabiner.
+\newblock Readings in speech recognition.
+\newblock chapter A Tutorial on Hidden Markov Models and Selected Applications
+  in Speech Recognition, pages 267--296. Morgan Kaufmann Publishers Inc., San
+  Francisco, CA, USA, 1990.
+
+\bibitem{seq2seq-chatbots}
+Suriyadeepan Ram.
+\newblock Chatbots with seq2seq.
+\newblock \url{http://suriyadeepan.github.io/2016-06-28-easy-seq2seq/}.
+
+\bibitem{word-embeddings}
+Sebastian Ruder.
+\newblock On word embeddings - part 1.
+\newblock \url{http://sebastianruder.com/word-embeddings-1/}.
+
 \bibitem{business-chat-bots}
 Gerardo Salandra.
 \newblock Does your business need a chatbot?
 \newblock \url{https://rocketbots.io/blog/business-need-chatbot/}.
+
+\bibitem{Schuster:1997:BRN:2198065.2205129}
+M.~Schuster and K.K. Paliwal.
+\newblock Bidirectional recurrent neural networks.
+\newblock {\em Trans. Sig. Proc.}, 45(11):2673--2681, November 1997.
+
+\bibitem{DBLP:journals/corr/SerbanSBCP15}
+Iulian~Vlad Serban, Alessandro Sordoni, Yoshua Bengio, Aaron~C. Courville, and
+  Joelle Pineau.
+\newblock Hierarchical neural network generative models for movie dialogues.
+\newblock {\em CoRR}, abs/1507.04808, 2015.
+
+\bibitem{cpu-failure}
+Faizan Shaikh.
+\newblock Why are gpus necessary for training deep learning models?
+\newblock
+  \url{https://www.analyticsvidhya.com/blog/2017/05/gpus-necessary-for-deep-learning/}.
+
+\bibitem{silver2016mastering}
+David Silver, Aja Huang, Chris~J Maddison, Arthur Guez, Laurent Sifre, George
+  Van Den~Driessche, Julian Schrittwieser, Ioannis Antonoglou, Veda
+  Panneershelvam, Marc Lanctot, et~al.
+\newblock Mastering the game of go with deep neural networks and tree search.
+\newblock {\em Nature}, 529(7587):484--489, 2016.
 
 \bibitem{support-chat-bots}
 Tom Simonite.
@@ -36,5 +237,47 @@ Tom Simonite.
 Pavel Surmenok.
 \newblock Chatbot architecture.
 \newblock \url{http://pavel.surmenok.com/2016/09/11/chatbot-architecture/}.
+
+\bibitem{DBLP:journals/corr/SutskeverVL14}
+Ilya Sutskever, Oriol Vinyals, and Quoc~V. Le.
+\newblock Sequence to sequence learning with neural networks.
+\newblock {\em CoRR}, abs/1409.3215, 2014.
+
+\bibitem{Sutton:1998:IRL:551283}
+Richard~S. Sutton and Andrew~G. Barto.
+\newblock {\em Introduction to Reinforcement Learning}.
+\newblock MIT Press, Cambridge, MA, USA, 1st edition, 1998.
+
+\bibitem{2016arXiv160502688short}
+{Theano Development Team}.
+\newblock {Theano: A {Python} framework for fast computation of mathematical
+  expressions}.
+\newblock {\em arXiv e-prints}, abs/1605.02688, May 2016.
+
+\bibitem{turing-test-succes}
+theguardian.
+\newblock Computer simulating 13-year-old boy becomes first to pass turing
+  test.
+\newblock
+  \url{https://www.theguardian.com/technology/2014/jun/08/super-computer-simulates-13-year-old-boy-passes-turing-test}.
+
+\bibitem{wildml-chatbots}
+Wildml.
+\newblock Deep learning for chatbots, part 1 – introduction.
+\newblock
+  \url{http://www.wildml.com/2016/04/deep-learning-for-chatbots-part-1-introduction/}.
+
+\bibitem{retrieval-chatbots}
+Wildml.
+\newblock Deep learning for chatbots, part 2 – implementing a retrieval-based
+  model in tensorflow.
+\newblock
+  \url{http://www.wildml.com/2016/07/deep-learning-for-chatbots-2-retrieval-based-model-tensorflow/}.
+
+\bibitem{rnns}
+Wildml.
+\newblock Recurrent neural networks tutorial, part 1 - introduction to rnns.
+\newblock
+  \url{http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/}.
 
 \end{thebibliography}

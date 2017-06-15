@@ -20,21 +20,20 @@
 \BOOKMARK [1][-]{section.3.6}{Predictie}{chapter.3}% 20
 \BOOKMARK [2][-]{subsection.3.6.1}{Greedy}{section.3.6}% 21
 \BOOKMARK [2][-]{subsection.3.6.2}{Beam search}{section.3.6}% 22
-\BOOKMARK [1][-]{section.3.7}{Cross entropy}{chapter.3}% 23
-\BOOKMARK [0][-]{chapter.4}{Experimente si rezultate}{}% 24
-\BOOKMARK [1][-]{section.4.1}{Set de date}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.2}{Mediu de lucru/Framework}{chapter.4}% 26
-\BOOKMARK [1][-]{section.4.3}{Arhitecturi canditat}{chapter.4}% 27
-\BOOKMARK [2][-]{subsection.4.3.1}{Arhitectura 1.0}{section.4.3}% 28
-\BOOKMARK [2][-]{subsection.4.3.2}{Arhitectura 1.5}{section.4.3}% 29
-\BOOKMARK [2][-]{subsection.4.3.3}{Arhitectura 2.0}{section.4.3}% 30
-\BOOKMARK [2][-]{subsection.4.3.4}{Arhitectura 3.0}{section.4.3}% 31
-\BOOKMARK [2][-]{subsection.4.3.5}{Arhitectura 3.5}{section.4.3}% 32
-\BOOKMARK [1][-]{section.4.4}{Rezultate}{chapter.4}% 33
-\BOOKMARK [2][-]{subsection.4.4.1}{Word perplexity}{section.4.4}% 34
-\BOOKMARK [2][-]{subsection.4.4.2}{Evaluare umana}{section.4.4}% 35
-\BOOKMARK [0][-]{chapter.5}{Posibile dezvoltari}{}% 36
-\BOOKMARK [1][-]{section.5.1}{\316nvatare prin \356ntarire}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.2}{Mecanisme de atentie}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.3}{Setul de date}{chapter.5}% 39
-\BOOKMARK [0][-]{chapter.6}{Concluzii}{}% 40
+\BOOKMARK [0][-]{chapter.4}{Experimente si rezultate}{}% 23
+\BOOKMARK [1][-]{section.4.1}{Set de date}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.2}{Mediu de lucru/Framework}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.3}{Arhitecturi canditat}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.3.1}{Arhitectura 1.0}{section.4.3}% 27
+\BOOKMARK [2][-]{subsection.4.3.2}{Arhitectura 1.5}{section.4.3}% 28
+\BOOKMARK [2][-]{subsection.4.3.3}{Arhitectura 2.0}{section.4.3}% 29
+\BOOKMARK [2][-]{subsection.4.3.4}{Arhitectura 3.0}{section.4.3}% 30
+\BOOKMARK [2][-]{subsection.4.3.5}{Arhitectura 3.5}{section.4.3}% 31
+\BOOKMARK [1][-]{section.4.4}{Rezultate}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.4.1}{Word perplexity}{section.4.4}% 33
+\BOOKMARK [2][-]{subsection.4.4.2}{Evaluare umana}{section.4.4}% 34
+\BOOKMARK [0][-]{chapter.5}{Posibile dezvoltari}{}% 35
+\BOOKMARK [1][-]{section.5.1}{\316nvatare prin \356ntarire}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.2}{Mecanisme de atentie}{chapter.5}% 37
+\BOOKMARK [1][-]{section.5.3}{Setul de date}{chapter.5}% 38
+\BOOKMARK [0][-]{chapter.6}{Concluzii}{}% 39
