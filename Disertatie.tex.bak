@@ -9,8 +9,11 @@
 \usepackage{color}
 \usepackage{listings}
 \usepackage{multirow}
+\usepackage{url}
+\urlstyle{same}
+\usepackage{array}
 
-\graphicspath{{./imagini/}}	
+\graphicspath{{./imagini/}}
 
 \begin{document}
 
@@ -25,4 +28,6 @@
 \include{Cap5_PosibileDezvoltari}
 \include{Cap6_Concluzii}
 
+\bibliography{Bibliography}
+\bibliographystyle{plain}
 \enddocument
