@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.2)  19 JUN 2017 21:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.2)  19 JUN 2017 21:38
 entering extended mode
 **./Disertatie.tex
 (Disertatie.tex
@@ -813,7 +813,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 33.
 Here is how much of TeX's memory you used:
  8250 strings out of 493335
  121113 string characters out of 3136669
- 222396 words of memory out of 3000000
+ 223396 words of memory out of 3000000
  11364 multiletter control sequences out of 15000+200000
  14001 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -834,7 +834,7 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX
 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Disertatie.pdf (39 pages, 1332733 bytes).
+Output written on Disertatie.pdf (39 pages, 1332741 bytes).
 PDF statistics:
  768 PDF objects out of 1000 (max. 8388607)
  231 named destinations out of 1000 (max. 500000)
