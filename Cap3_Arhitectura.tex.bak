@@ -1,7 +1,7 @@
 \chapter{Arhitectura sistemului}
 
 \paragraph{}
-Modelarea unui limbaj reprezint\u a o sarcin\u a extrem de dificil\u a pentru un calculator. Recente progrese \^ in aria Deep Learning au f\u acut posibile diverse dezvolt\u ari \^ in aceast\u a direc\c tie, \^ ins\u a lucrurile sunt departe de a fi rezolvate. Arhitectura folosit\u a pentru construc\c tia chatbot-ului prezentat \^ in aceast\u a lucrare va fi expus\u a precum un bloc de construc\c tii, plec\^ and de la no\c tiunile de baz\u a, p\^ an\u a la arhitectura final\u a.
+Modelarea unui limbaj reprezint\u a o sarcin\u a extrem de dificil\u a pentru un sistem computa\c tional. Recente progrese \^ in aria Deep Learning au f\u acut posibile diverse dezvolt\u ari \^ in aceast\u a direc\c tie, \^ ins\u a lucrurile sunt departe de a fi rezolvate. Arhitectura folosit\u a pentru construc\c tia chatbot-ului prezentat \^ in aceast\u a lucrare va fi expus\u a precum un bloc de construc\c tii, plec\^ and de la no\c tiunile de baz\u a, p\^ an\u a la arhitectura final\u a.
 
 \section{Re\c tele neurale artificiale}
 
@@ -9,7 +9,7 @@ Modelarea unui limbaj reprezint\u a o sarcin\u a extrem de dificil\u a pentru un
 O re\c tea neural\u a artificial\u a (RNA) reprezint\u a o paradigm\u a bazat\u a pe procesare de informa\c tii a c\u arei inspira\c tie provine din sistemul nervos biologic \cite{biological-inpiration}. Precum creierul uman, o RNA este compus\u a dintr-un num\u ar mare de elemente de procesare interconectate (neuroni) lucr\^ and la unison pentru a rezolva diverse probleme. RNA, precum oamenii, \^ inva\c t\u a din exemple. \^ Inv\u a\c tarea \^ in sistemele biologice implic\u a ajustarea conexiunilor sinaptice care exist\u a \^ intre neuroni. Acest principiu se aplic\u a \c si acestor re\c tele.
 
 \paragraph{}
-Ca \c si modelare matematic\u a propriu-zis\u a, o RNA poate fi observat\u a \^ in Figura 3.1. Avem o intrare reprezentat\u a \^ in figur\u a de vectorul n-dimensional (x1, x2, x3, x4). Aceast\u a intrare reprezint\u a caracteristicile unui e\c santion care face parte dintr-un set de date. Straturile intermediare se numesc straturi ascunse, iar rolul lor este s\u a produc\u a o abstractizare c\^ at mai complex\u a a datelor de intrare, folosind diverse func\c tii cu activare neliniar\u a. Ultimul strat se nume\c ste strat de ie\c sire, reprezent\^ and eticheta (clasa) vectorului de intrare.
+Ca \c si modelare matematic\u a propriu-zis\u a, o RNA poate fi observat\u a \^ in Figura 3.1. Avem o intrare reprezentat\u a \^ in figur\u a de vectorul \(n\)-dimensional \((x1, x2, x3, x4)\). Aceast\u a intrare reprezint\u a caracteristicile unui e\c santion care face parte dintr-un set de date. Straturile intermediare se numesc straturi ascunse, iar rolul lor este s\u a produc\u a o abstractizare c\^ at mai complex\u a a datelor de intrare, folosind diverse func\c tii cu activare neliniar\u a. Ultimul strat se nume\c ste strat de ie\c sire, reprezent\^ and eticheta (clasa) vectorului de intrare.
 
 \begin{figure}[H]
 \centering
@@ -18,10 +18,10 @@ Ca \c si modelare matematic\u a propriu-zis\u a, o RNA poate fi observat\u a \^ 
 \end{figure}
 
 \paragraph{}
-Valorile care creaz\u a leg\u aturile dintre straturile re\c telei se numesc ponderi. Rolul principal al acestora este s\u a propage informa\c tia primit\u a ca intrare, p\^ an\u a la stratul de ie\c sire, astfel \^ inc\^ at re\c teaua s\u a fie capabil\u a s\u a modeleze cu succes distribu\c tia setului de instruire. Ini\c tial, valorile acestora sunt alese uniform aleator, m\u arginite de un anumit interval\footnote{Ini\c tializare Glorot \cite{GlorotAISTATS2010}}. Partea actualmente de instruire const\u a \^ in stabilizarea acestor ponderi p\^ an\u a \^ in momentul c\^ and re\c teaua ajunge la convergen\c t\u a.
+Valorile care creeaz\u a leg\u aturile dintre straturile re\c telei se numesc ponderi. Rolul principal al acestora este s\u a propage informa\c tia primit\u a ca intrare, p\^ an\u a la stratul de ie\c sire, astfel \^ inc\^ at re\c teaua s\u a fie capabil\u a s\u a modeleze cu succes distribu\c tia setului de instruire. Ini\c tial, valorile acestora sunt alese uniform aleator, m\u arginite de un anumit interval\footnote{Ini\c tializare Glorot \cite{GlorotAISTATS2010}}. Partea actualmente de instruire const\u a \^ in stabilizarea acestor ponderi p\^ an\u a \^ in momentul c\^ and re\c teaua ajunge la convergen\c t\u a.
 
 \paragraph{}
-Un aspect principal care face posibil\u a modelarea distribu\c tiei datelor \^ il reprezint\u a func\ tiile cu activare neliniar\u a. Scopul acestora este ca de la strat la strat, informa\c tia propagat\u a s\u a creeze abstractiz\u ari care surprind caracteristici din ce \^ in ce mai complexe ale intr\u arii (Figura 3.2). Dup\u a cum se poate observa, re\c teaua din Figura 3.2 \^ inva\c t\u a ca la primul strat s\u a detecteze linii, la stratul secund regiuni ale fe\c tei, ca \^ in final s\u a fie capabil\u a s\u a reprezinte chipuri.
+Un aspect principal care face posibil\u a modelarea distribu\c tiei datelor \^ il reprezint\u a func\c tiile cu activare neliniar\u a. Scopul acestora este ca de la strat la strat, informa\c tia propagat\u a s\u a creeze abstractiz\u ari care surprind caracteristici din ce \^ in ce mai complexe ale intr\u arii (Figura 3.2). Dup\u a cum se poate observa, re\c teaua din Figura 3.2 \^ inva\c t\u a ca la primul strat s\u a detecteze linii, la stratul secund regiuni ale fe\c tei, ca \^ in final s\u a fie capabil\u a s\u a reprezinte chipuri.
 
 \begin{figure}[H]
 \centering
@@ -29,7 +29,7 @@ Un aspect principal care face posibil\u a modelarea distribu\c tiei datelor \^ i
 \caption{Caracteristici \^ inv\u a\c tate pentru straturile unei RNA}
 \end{figure}
 
-Principalele fun\c tii cu activare neliniar\u a folosite \^ in prezent sunt:
+Principalele func\c tii cu activare neliniar\u a folosite \^ in prezent sunt:
 
 \begin{itemize}
 	\item Sigmoid\u a: \(\sigma(x)=\frac{1}{1+e^{-x}}\)
@@ -39,16 +39,32 @@ Principalele fun\c tii cu activare neliniar\u a folosite \^ in prezent sunt:
 \end{itemize}
 
 \paragraph{}
-Aceste func\c tii sunt aplicate straturilor ascunse dup\u a ce s-a calculat produsul matriceal dintre ie\c sirea stratului anterior \(x\) \c si matricea ponderilor \(W\) pentru stratul curent, la care se adaug\u a un termen numit bias: \(f(xW+b)\). Important de precizat este faptul c\u a fun\c tia softmax este aplicat\u a \^ intotdeauna doar stratului de ie\c sire. Scopul acesteia este normalizarea valorilor de ie\c sire astfel \^ inc\^ at acestea s\u a reprezinte o distribu\c tie de probabilit\u a\c ti asupra celor \(K\) posibile clase.
+Aceste func\c tii sunt aplicate straturilor ascunse dup\u a ce s-a calculat produsul matriceal dintre ie\c sirea stratului anterior \(x\) \c si matricea ponderilor \(W\) pentru stratul curent, la care se adaug\u a un termen numit bias: \(f(W^tx+b)\). Important de precizat este faptul c\u a func\c tia softmax este aplicat\u a \^ intotdeauna doar stratului de ie\c sire. Scopul acesteia este normalizarea valorilor de ie\c sire astfel \^ inc\^ at acestea s\u a reprezinte un vector de probabilit\u a\c ti asupra celor \(K\) posibile clase.
 
 \paragraph{}
-Odat\u a ce informa\c tia a fost propagat\u a \^ inainte\footnote{Feedforward} p\^ an\u a la ultimul strat, trebuie definit\u a o func\c tie de eroare care m\u asoar\u a diferen\c ta dintre distribu\c tia \^ inv\u a\c tat\u a a datelor \c si cea real\u a. \^ In acest scop, pentru probleme unde exist\u a un num\u ar \(K\) de clase, varianta folosit\u a pentru fun\c tia de eroare este cross entropy. \^ In teoria informa\c tiei, cross entropy \^ intre dou\u a distribu\c tii de probabilit\u a\c ti \(p\) \c si \(q\) care stau la baza unui set de evenimente, m\u asoar\u a num\u arul de bi\c ti necesari pentru a identifica un eveniment produs de c\u atre acest set.
+Odat\u a ce informa\c tia a fost propagat\u a \^ inainte\footnote{Feedforward} p\^ an\u a la ultimul strat, trebuie definit\u a o func\c tie de eroare care m\u asoar\u a diferen\c ta dintre distribu\c tia \^ inv\u a\c tat\u a a datelor \c si cea real\u a. \^ In acest scop, pentru probleme unde exist\u a un num\u ar \(K\) de clase, varianta preferat\u a pentru fun\c tia de eroare este cross entropy. \^ In teoria informa\c tiei, cross entropy \^ intre dou\u a distribu\c tii de probabilit\u a\c ti \(p\) \c si \(q\) care stau la baza unui set de evenimente, m\u asoar\u a num\u arul de bi\c ti necesari pentru a identifica un eveniment produs de c\u atre acest set, dac\u a procedeul de alegere este optimizat pentru distribu\c tia ``nenatural\u a" \(q\) \^ in locul distribu\c tiei reale \(p\) \cite{Goodfellow-et-al-2016}. Aceasta este definit\u a ca fiind:
 
+\begin{equation}
+\begin{split}
+H(p,q)=-\sum_{x}p(x)\log q(x)
+\end{split}
+\end{equation}
+
+\paragraph{}
+Plec\^ and de la aceast\u a func\c tie de eroare, se calculeaz\u a derivatele par\c tiale ale fiec\u arui strat \^ in raport cu aceasta, iar ponderile sunt deplasate cu o anumit\u a magnitudine \^ in sensul invers gradientului ob\c tinut, eroarea fiind propagat\u a \^ inapoi\footnote{Backpropagation}. Aceast\u a idee este cunoscut\u a \^ in literatur\u a drept Gradient Descent \cite{Bazaraa:2013:NPT:2553227}. Formula de actualizare a ponderilor este vizibil\u a \^ in Ecua\c tia 3.2, unde \(\eta\) reprezint\u a constanta de \^ inv\u a\c tare\footnote{Magnitudinea cu care ponderile se deplaseaz\u a \^ in direc\c tia gradientului}, iar \(\nabla_{\theta}J(\theta)\) gradientul derivatei par\c tiale \^ in raport cu func\c tia de eroare cross entropy.
+
+\begin{equation}
+\begin{split}
+\theta=\theta - \eta \nabla_{\theta}J(\theta)
+\end{split}
+\end{equation}
+
+Astfel, instruirea unei RNA se rezum\u a la urm\u atoarele etape: propagarea informa\c tiei de la stratul de intrare c\u atre cel de ie\c sire, calcularea valorii func\c tiei de eroare, propagarea \^ inapoi a erorii \c si actualizarea ponderilor. Acest principiu se aplic\u a \c si arhitecturilor ulterior prezentate \^ in acest capitol.
 
 \section{Re\c tele neurale artificiale recurente}
 
 \paragraph{}
-Dup\u a cum se poate observa, o RNA este util\u a atunci c\^ and intrarea este format\u a dintr-un singur element, de exemplu o imagine. Modelarea unui limbaj \^ ins\u a presupune ca intr\u arile s\u a fie fraze. O fraz\u a este format\u a din mai multe elemente (cuvinte), deci o RNA clasic\u a nu poate modela o astfel de intrare. Solu\c tia pentru aceast\u a problem\u a este oferit\u a de re\c telele neurale artificiale recurente (RNAR) \cite{rnns}. Acestea sunt folosite pentru a modela secven\c te unde exist\u a o dependen\c t\u a temporal\u a (fraze, serii de timp). Fiecare intrare curent\u a din secven\c t\u a este condi\c tionat\u a de cele precedente. O astfel de re\c tea se poate observa \^ in Figura 3.2. Straturile ascunse \^ intr-o RNAR au rolul de a p\u astra o captur\u a a tot ceea ce s-a oferit ca intrare p\^ an\u a \^ in momentul curent. Valoarea fiec\u arui strat ascuns curent depinde astfel at\^ at de intrarea curent\u a c\^ at \c si de ie\c sirea stratului ascuns anterior. Putem considera toat\u a aceast\u a modelare ca pe o probabilitate condi\c tionat\u a \( P(x_{n} | x_{1}, x_{2},..., x_{n-1}) \), unde \^ in cazul unei fraze \(x_{1}, x_{2},..., x_{n}\) reprezint\u a cuvintele acesteia. 
+Dup\u a cum se poate observa, o RNA este util\u a atunci c\^ and intrarea este format\u a dintr-un singur element, de exemplu o imagine. Modelarea unui limbaj \^ ins\u a presupune ca intr\u arile s\u a fie fraze. O fraz\u a este format\u a din mai multe elemente (cuvinte), deci o RNA clasic\u a nu poate modela o astfel de intrare. Solu\c tia pentru aceast\u a problem\u a este oferit\u a de re\c telele neurale artificiale recurente (RNAR) \cite{rnns}. Acestea sunt folosite pentru a modela secven\c te unde exist\u a o dependen\c t\u a temporal\u a (fraze, serii de timp). Fiecare intrare curent\u a din secven\c t\u a este condi\c tionat\u a de cele precedente. O astfel de re\c tea se poate observa \^ in Figura 3.3. Straturile ascunse \^ intr-o RNAR au rolul de a p\u astra o captur\u a a tot ceea ce s-a oferit ca intrare p\^ an\u a \^ in momentul curent. Valoarea fiec\u arui strat ascuns curent depinde astfel at\^ at de intrarea curent\u a c\^ at \c si de ie\c sirea stratului ascuns anterior. Aceast\u a modelare poate fi considerat\u a o probabilitate condi\c tionat\u a \( P(x_{n} | x_{1}, x_{2},..., x_{n-1}) \), unde \^ in cazul unei fraze, \(x_{1}, x_{2},..., x_{n}\) reprezint\u a cuvintele acesteia. 
 
 \begin{figure}[H]
 \centering
@@ -57,7 +73,7 @@ Dup\u a cum se poate observa, o RNA este util\u a atunci c\^ and intrarea este f
 \end{figure}
 
 \paragraph{}
-Algoritmul de reglare a ponderilor se nume\c ste propagarea \^ inapoi \^ in timp a erorii \cite{Mozer:1995:FBA:201784.201791}. O problem\u a serioas\u a care a ap\u arut odat\u a cu introducerea acestor re\c tele se nume\c ste anularea gradien\c tilor\footnote{vanishing gradients}. \^ In cazul \^ in care secven\c ta de intrare are o lungime mare, informa\c tia nu reu\c se\c ste s\u a se propage \^ in timp deoarece gradientul ponderilor tinde s\u a devin\u a \(0\) \cite{Hochreiter:1998:VGP:353515.355233}. Mecanismul care \^ inl\u atur\u a aceast\u a problem\u a se nume\c ste Long Short Term Memory (LSTM) \cite{Hochreiter:1997:LSM:1246443.1246450}. Principiul este ca prin folosirea unor por\c ti de transmitere a informa\c tiei, gradientul s\u a fie stabilizat. Acest mecanism a reprezentat un avans spectaculos pentru Deep Learning, permi\c t\^ and modelarea secven\c tial\u a cu re\c tinere a informa\c tiei pe o perioad\u a \^ indelungat\u a de timp. Ecua\c tiile 3.1 descriu calculele pentru por\c tile LSTM.
+Propagarea \^ inapoi a erorii depinde acum de mai multe secven\c te temporale\footnote{Backpropagation through time} \cite{Mozer:1995:FBA:201784.201791}. O problem\u a serioas\u a care a ap\u arut odat\u a cu introducerea acestor re\c tele se nume\c ste anularea gradien\c tilor\footnote{Vanishing gradients}. \^ In cazul \^ in care secven\c ta de intrare are o lungime mare, informa\c tia nu reu\c se\c ste s\u a se propage \^ in timp deoarece gradientul ponderilor tinde s\u a devin\u a \(0\) \cite{Hochreiter:1998:VGP:353515.355233}. Mecanismul care \^ inl\u atur\u a aceast\u a problem\u a se nume\c ste Long Short Term Memory (LSTM) \cite{Hochreiter:1997:LSM:1246443.1246450}. Principiul este ca prin folosirea unor por\c ti de transmitere a informa\c tiei, gradientul s\u a fie stabilizat. Acest\u a descoperire a reprezentat un avans spectaculos pentru Deep Learning, permi\c t\^ and modelarea secven\c tial\u a cu re\c tinere a informa\c tiei pe o perioad\u a \^ indelungat\u a de timp. Ecua\c tiile 3.3 descriu calculele pentru por\c tile LSTM.
 
 \begin{equation}
 \begin{split}
@@ -70,15 +86,15 @@ h_{t} = o_{t} \circ \tanh (c_{t})\\
 \end{equation}
 
 \paragraph{}
-Poarta \(f_{t}\) se nume\c ste poart\u a de uitare (forget gate). Rolul ei este s\u a stabilieasc\u a c\^ at\u a informa\c tie se va uita din trecut. Poarta \(i_{t}\) este poarta de intrare (input gate). Aceasta delimiteaz\u a care este cantitatea de informa\c tie care se p\u astreaz\u a din intrarea curent\u a. Poarta \(o_{t}\) este cea de ie\c sire (output gate). Ea controleaz\u a ce informa\c tie va fi transmis\u a c\u atre ie\c sire. \(c_{t}\) se nume\c ste starea intern\u a a celulei LSTM. Aceasta este calculat\u a ca o combina\c tie \^ intre starea anterioar\u a a celulei, poarta de intrare \c si cea de ie\c sire. \(h_{t}\) reprezint\u a ie\c sirea curent\u a a re\c telei \c si depinde de poarta de ie\c sire \c si starea celulei LSTM. 
+Poarta \(f_{t}\) se nume\c ste poart\u a de uitare (forget gate). Rolul ei este s\u a stabilieasc\u a c\^ at\u a informa\c tie se va uita din trecut. Poarta \(i_{t}\) este poarta de intrare (input gate). Aceasta delimiteaz\u a care este cantitatea de informa\c tie care se p\u astreaz\u a din intrarea curent\u a. Poarta \(o_{t}\) este cea de ie\c sire (output gate). Ea controleaz\u a ce informa\c tie va fi transmis\u a c\u atre ie\c sire. \(c_{t}\) se nume\c ste starea intern\u a a celulei LSTM. Aceasta este calculat\u a ca o combina\c tie \^ intre starea anterioar\u a a celulei, poarta de intrare \c si cea de ie\c sire. \(h_{t}\) reprezint\u a ie\c sirea curent\u a a re\c telei \c si depinde de poarta de ie\c sire \c si starea celulei LSTM.
 
 \paragraph{}
-O RNAN aduce mai aproape ideea de modelare lingvistica, \^ ins\u a se poate observa c\u a aceasta nu permite ca intrare dec\^ at o fraz\u a pe r\^ and. Modelarea dorit\u a \^ in aceast\u a lucrare este o pereche de forma \^ intrebare-r\u aspuns.
+O RNAN aduce mai aproape ideea de modelare lingvistic\u a, \^ ins\u a se poate observa c\u a aceasta nu permite ca intrare dec\^ at o fraz\u a pe r\^ and. Modelarea dorit\u a \^ in aceast\u a lucrare este o pereche de forma \^ intrebare-r\u aspuns.
 
 \section{Modele Sequence-to-Sequence}
 
 \paragraph{}
-Transla\c tia a reprezentat mereu un punct de interes \^ in mediul proces\u arii naturale de limbaj, constituind de altfel o provocare uria\c s\u a de-a lungul ultimilor ani. P\^ an\u a \^ in anul 2014, majoritatea modelelor de transla\c tie se bazau pe lan\c turi Markov ascunse (Hidden Markov Models - HMM) \cite{Rabiner:1990:THM:108235.108253}, totul urm\^ and a se schimba odat\u a cu introducerea unei noi arhitecturi \^ in acel an de c\u atre Cho et Al. Noul tip de arhitectur\u a se numea Sequence-to-Sequence (seq2seq) \cite{DBLP:journals/corr/SutskeverVL14} \c si urma s\u a aduc\u a imbun\u at\u a\c tiri spectaculoase at\^ at pe partea de transla\c tie c\^ at \c si pe partea conversa\c tional\u a. Modelul este vizibil \^ in Figura 3.3.
+Traducerea a reprezentat mereu un punct de interes \^ in mediul proces\u arii naturale de limbaj, constituind de altfel o provocare uria\c s\u a de-a lungul ultimilor ani. P\^ an\u a \^ in anul 2014, majoritatea modelelor de traducere se bazau pe lan\c turi Markov ascunse (Hidden Markov Models - HMM) \cite{Rabiner:1990:THM:108235.108253}, totul urm\^ and a se schimba odat\u a cu introducerea unei noi arhitecturi \^ in acel an de c\u atre Cho et Al. Noul tip de arhitectur\u a se numea Sequence-to-Sequence (seq2seq) \cite{DBLP:journals/corr/SutskeverVL14} \c si urma s\u a aduc\u a \^ imbun\u at\u a\c tiri majore at\^ at pe partea de traducere c\^ at \c si pe cea conversa\c tional\u a. Modelul este vizibil \^ in Figura 3.4.
 
 \begin{figure}[H]
 \centering
@@ -87,7 +103,7 @@ Transla\c tia a reprezentat mereu un punct de interes \^ in mediul proces\u arii
 \end{figure}
 
 \paragraph{}
-Aceast tip de arhitectur\u a este \^ impar\c tit\u a \^ in dou\u a jum\u at\u a\c ti: codor (encoder) \c si decodor (decoder). Sarcina codorului este s\u a primeasc\u a o fraz\u a cu un num\u ar variabil de cuvinte ca intrare iar unica sa ie\c sire\footnote{Ie\c sirea ultimului element din secven\c t\u a} s\u a fie o captur\u a a \^ intregii intrari (un vector de lungime fix\u a). Aceast\u a captur\u a poate fi privit\u a ca o sumarizare a \^ intregii fraze. Sarcina decodorului este de a \^ inv\u a\c ta fraze pornind de la ie\c sirea codorului, care va deveni prima intrare din decodor, \c si restul intrarilor precedente. Intrarea curent\u a \(w_{n}\) \^ in decodor este ie\c sirea de la timpul anterior, \(w_{n-1}\). Modelarea se transform\u a astfel \^ intr-o probabilitate condi\c tionat\u a: \(P(w_{n} | w_{1}, w_{2},..., w_{n-1}, c)\), unde \(c\) reprezint\u a ie\c sirea codorului, deseori \^ int\^ alnit sub numele de context \^ in literatura de specialitate.
+Aceast tip de arhitectur\u a este \^ imp\u ar\c tit\u a \^ in dou\u a jum\u at\u a\c ti: codor (encoder) \c si decodor (decoder). Sarcina codorului este s\u a primeasc\u a o fraz\u a cu un num\u ar variabil de cuvinte ca intrare iar unica sa ie\c sire\footnote{Ie\c sirea ultimului element din secven\c t\u a} s\u a fie o captur\u a a \^ intregii intr\u ari (un vector de lungime fix\u a). Aceast\u a captur\u a poate fi privit\u a ca o sumarizare a \^ intregii fraze. Sarcina decodorului este de a \^ inv\u a\c ta fraze pornind de la ie\c sirea codorului, care va deveni prima intrare din decodor, \c si restul intr\u arilor precedente. Intrarea curent\u a \(w_{n}\) \^ in decodor este ie\c sirea de la timpul anterior, \(w_{n-1}\). Modelarea se transform\u a astfel \^ intr-o probabilitate condi\c tionat\u a: \(P(w_{n} | w_{1}, w_{2},..., w_{n-1}, c)\), unde \(c\) reprezint\u a ie\c sirea codorului, deseori \^ int\^ alnit sub numele de context \^ in literatura de specialitate.
 
 \paragraph{}
 Intr\u arile \^ in acest model sunt de forma \^ intrebare-r\u aspuns. Original folosit ca model de transla\c tie, unde intrarea pentru codor era fraza \^ intr-o limb\u a iar intrarea \^ in decodor era fraza tradus\u a \^ in limba dorit\u a, acest principiu se poate aplica la fel de u\c sor pentru a modela o conversa\c tie \cite{seq2seq-chatbots}. Spre deosebire de traducere unde totul se \^ int\^ ampla punctual iar r\u aspunsul nu depinde dec\^ at de intrarea curent\u a, o conversa\c tie este foarte dependent\u a de un context. F\u ar\u a acest context, partenerul angrenat \^ in discu\c tie ar r\u aspunde mereu lu\^ and \^ in considerare doar ce i s-a spus \^ in momentul de fa\c t\u a, ignor\^ and orice replic\u a anterioar\u a. Acesta nu este un comportament dorit \^ in cadrul unei conversa\c tii \c si de aceea modelul seq2seq nu este destul de puternic de sine st\u at\u ator pentru a modela o discu\c tie.
@@ -95,7 +111,7 @@ Intr\u arile \^ in acest model sunt de forma \^ intrebare-r\u aspuns. Original f
 \section{Hierarchical Recurrent Encoder-Decoder}
 
 \paragraph{}
-Modelarea contextului discu\c tiei reprezint\u a una dintre principalele nevoi \^ in ceea ce prive\c ste o conversa\c tie care dore\c ste s\u a par\u a c\^ at mai real\u a. P\^ an\u a recent, cea mai apropiat\u a arhitectur\u a care realiza acest lucru era modelul seq2seq, \^ ins\u a contextul era re\c tinut doar la nivelul unei singure fraze. \^ In anul 2016, Iulian \c Serban et Al. a introdus re\c teaua Hierarchical Recurrent Encoder-Decoder (HRED - Figura 3.4) \cite{DBLP:journals/corr/SerbanSBCP15}. Ea poate fi vazut\u a ca o extensie peste seq2seq. Avantajul acesteia este c\u a poate re\c tine contextul discu\c tiei.
+Modelarea contextului discu\c tiei reprezint\u a una dintre principalele nevoi \^ in ceea ce prive\c ste o conversa\c tie care se dore\c ste s\u a par\u a c\^ at mai real\u a. P\^ an\u a recent, cea mai apropiat\u a arhitectur\u a care realiza acest lucru era modelul seq2seq, \^ ins\u a contextul era re\c tinut doar la nivelul unei singure fraze. \^ In anul 2016, Iulian \c Serban et Al. a introdus re\c teaua Hierarchical Recurrent Encoder-Decoder (HRED - Figura 3.5) \cite{DBLP:journals/corr/SerbanSBCP15}. Ea poate fi v\u azut\u a ca o extensie peste seq2seq. Avantajul acesteia este c\u a poate re\c tine contextul discu\c tiei.
 
 \begin{figure}[H]
 \centering
@@ -109,7 +125,7 @@ Dup\u a cum se poate observa, modelul este construit prin al\u aturarea mai mult
 \subsection{Celula GRU}
 
 \paragraph{}
-Gated Recurrent Unit sau GRU \cite{DBLP:journals/corr/ChungGCB14} este un tip de celul\u a pentru o RNAR, menit\u a s\u a o \^ inlocuiasc\u a pe cea LSTM. Ecua\c tiile din spatele celulei(3.2) sunt asem\u an\u atoare cu cele LSTM.
+Gated Recurrent Unit sau GRU \cite{DBLP:journals/corr/ChungGCB14} este un tip de celul\u a pentru o RNAR, menit\u a s\u a o \^ inlocuiasc\u a pe cea LSTM. Ecua\c tiile 3.4 din spatele celulei sunt asem\u an\u atoare cu cele LSTM.
 
 \begin{equation}
 \begin{split}
@@ -125,7 +141,7 @@ GRU are doar dou\u a por\c ti: poarta \(r\) de resetare (reset gate) \c si poart
   \item GRU are doar dou\u a por\c ti, pe c\^ and LSTM trei.
   \item GRU nu posed\u a o memorie intern\u a \(c_{t}\) care s\u a fie diferit\u a de starea ascuns\u a expus\u a. Nu con\c tine poarta de ie\c sire care este prezent\u a pentru LSTM.
   \item Poarta de intrare \c si cea de ie\c sire sunt cuplate de poarta de actualizare, iar poarta de resetare este aplicat\u a direct st\u arii ascunse anterioare. Astfel, responsabilitatea por\c tii de resetare din LSTM este \^ imp\u ar\c tit\u a \^ intre cea de resetare \c si cea de actualizare de la GRU.
-  \item Nu se aplic\u a o a doua neliaritate atunci c\^ and se calculeaz\u a ie\c sirea.
+  \item Nu se aplic\u a o a doua neliniaritate atunci c\^ and se calculeaz\u a ie\c sirea.
 \end{itemize}
 
 Nu exist\u a o arhitectur\u a c\^ a\c stig\u atoare clar\u a \^ intre LSTM \c si GRU. Av\^ and mai pu\c tini parametri (\(U\) \c si \(W\)), GRU se antreneaz\u a mai rapid \c si are nevoie de mai pu\c tine date pentru a generaliza. Pe de alt\u a parte, o cantitate mare de date	exprim\u a o putere mai mare de modelare din partea LSTM \c si astfel se pot ob\c tine rezultate mai bune. Pentru realizarea acestei aplica\c tii a fost aleas\u a o arhitectur\u a de tip GRU.
@@ -133,7 +149,7 @@ Nu exist\u a o arhitectur\u a c\^ a\c stig\u atoare clar\u a \^ intre LSTM \c si
 \subsection{HRED bidirec\c tional}
 
 \paragraph{}
-Rolul codorului, precum a fost men\c tionat mai devreme, este s\u a captureze informa\c tia unei fraze \^ intr-un vector de lungime fix\u a. \^ In orice limbaj, sensul unui cuv\^ ant nu este stabilit doar de cuvintele precedente ci \c si de cele ce vor urma. Deoarece RNAR modeleaz\u a cuvintele dintr-o fraz\u a pornind de la cuv\^ antul \(w_{1}\) la \(w_{n}\), \^ in\c telesul din viitor al acestora este ignorat, iar captura frazei poate s\u a nu fie \^ indeajuns de reprezentativ\u a. Astfel, este propus\u a folosirea unei RNAR bidirec\c tionale \cite{Schuster:1997:BRN:2198065.2205129} (Figura 3.5) pentru codor. Acest tip de re\c tea folose\c ste dou\u a parcurgeri ale secven\c tei de intrare: cea \^ inainte, care se desf\u a\c soar\u a \^ in mod obi\c snuit \c si cea invers\u a (de la \(w_{n}\) la \(w_{1}\)), pentru capturarea \^ in\c telesului din viitor al cuvintelor. Ie\c sirea pentru pargurgerea \^ inainte va fi la timpul \(n\) iar cea pentru parcurgerea invers\u a va fi la timpul ini\c tial. Vectorul de lungime fix\u a va fi format din concatenarea celor dou\u a ie\c siri ale re\c telei bidirec\c tionale.
+Rolul codorului, precum a fost men\c tionat mai devreme, este s\u a captureze informa\c tia unei fraze \^ intr-un vector de lungime fix\u a. \^ In orice limbaj, sensul unui cuv\^ ant nu este stabilit doar de cuvintele precedente ci \c si de cele ce vor urma. Deoarece RNAR modeleaz\u a cuvintele dintr-o fraz\u a pornind de la cuv\^ antul \(w_{1}\) la \(w_{n}\), \^ in\c telesul din viitor al acestora este ignorat, iar captura frazei poate s\u a nu fie \^ indeajuns de reprezentativ\u a. Astfel, este propus\u a folosirea unei RNAR bidirec\c tionale \cite{Schuster:1997:BRN:2198065.2205129} (Figura 3.6) pentru codor. Acest tip de re\c tea folose\c ste dou\u a parcurgeri ale secven\c tei de intrare: cea \^ inainte, care se desf\u a\c soar\u a \^ in mod obi\c snuit \c si cea invers\u a (de la \(w_{n}\) la \(w_{1}\)), pentru capturarea \^ in\c telesului din viitor al cuvintelor. Ie\c sirea pentru pargurgerea \^ inainte va fi la timpul \(n\) iar cea pentru parcurgerea invers\u a va fi la timpul ini\c tial. Vectorul de lungime fix\u a va fi format din concatenarea celor dou\u a ie\c siri ale re\c telei bidirec\c tionale.
 
 \begin{figure}[H]
 \centering
@@ -144,12 +160,12 @@ Rolul codorului, precum a fost men\c tionat mai devreme, este s\u a captureze in
 \section{Word Embeddings}
 
 \paragraph{}
-Buna reprezentare a caracteristicilor unei intr\u ari conduce la rezultate comparativ mai bune fa\c t\u a de situa\c tiile unde acestea sunt \^ inf\u aptuite manual. C\^ and vine vorba despre procesarea natural\u a de limbaj, buna reprezentare a cuvintelor din vocabular (word embeddings) \^ inseamn\u a un factor decisiv pentru succesul final. O reprezentare evident\u a ar fi folosirea codific\u arii de tipul one-hot care presupune un vector de lungimea vocabularului, umplut cu elemente \(0\) iar pozi\c tia pe care se afl\u a cuv\^ antul va fi marcat\u a cu \(1\). Dac\u a lungimea vocabularului este mare, vectorul va deveni rar (sparse) \c si avem de a face cu no\c tiunea de blestemul dimensionalit\u a\c tii\footnote{Dimensionalitatea vectorului de intrare este extrem de mare iar arhitectura re\c telei nu este capabil\u a s\u a modeleze distribu\c tia de probabilit\u a\c ti a datelor} \cite{doi:10.1093/imamat/24.1.59}. Astfel, este necesar\u a o codificare compact\u a, mai inteligent\u a, care s\u a fie de asemenea semnificativ\u a pentru semantica cuvintelor.
+Buna reprezentare a caracteristicilor unei intr\u ari conduce la rezultate comparativ mai bune fa\c t\u a de situa\c tiile unde acestea sunt \^ inf\u aptuite manual. C\^ and vine vorba despre procesarea natural\u a de limbaj, buna reprezentare a cuvintelor din vocabular (word embeddings) \^ inseamn\u a un factor decisiv pentru succesul final. O reprezentare evident\u a ar fi folosirea codific\u arii de tipul one-hot care presupune un vector de lungimea vocabularului, umplut cu elemente \(0\) iar pozi\c tia pe care se afl\u a cuv\^ antul va fi marcat\u a cu \(1\). Dac\u a lungimea vocabularului este mare, vectorul va deveni rar (sparse), instal\^ andu-se efectul denumit blestemul dimensionalit\u a\c tii\footnote{Dimensionalitatea vectorului de intrare este extrem de mare iar arhitectura re\c telei nu este capabil\u a s\u a modeleze distribu\c tia de probabilit\u a\c ti a datelor} \cite{doi:10.1093/imamat/24.1.59}. Astfel, este necesar\u a o codificare compact\u a, mai inteligent\u a, care s\u a fie de asemenea semnificativ\u a pentru semantica cuvintelor.
 
 \subsection{Word2vec}
 
 \paragraph{}
-\^ In anul 2013, Mikolov et al. a propus un model pentru word embeddings care se nume\c ste word2vec \cite{DBLP:journals/corr/MikolovSCCD13}. \^ In prezent, atunci c\^ and vine vorba despre modelare de limbaj natural, word2vec este solu\c tia cea mai abordat\u a \^ in practic\u a. Aceasta propune folosirea unor vectori de lungime fix\u a, compact\u a care totodat\u a s\u a captureze sensul cuvintelor. Ideea de baz\u a este ca \^ in spa\c tiul n-dimensional folosit, cuvintele cu semantic\u a asem\u anatoare s\u a aib\u a un scor de similaritate c\^at mai mare. Ca \c si metric\u a de similaritate preferat\u a pentru cuantificarea asem\u an\u arii \^ intre reprezentarea a dou\u a cuvinte, c\^ astig\u atoarea este de cele mai multe ori similaritatea cosinus (Ecua\c tia 3.3). Cel mai popular exemplu produs pentru a descrie puterea de modelare folosit\u a de word2vec este \(king - man + woman \approx queen\). Figura 3.6 captureaz\u a ideea de word2vec vizualizat \^ intr-un spa\c tiu bidimensional.
+\^ In anul 2013, Mikolov et al. a propus un model pentru word embeddings care se nume\c ste word2vec \cite{DBLP:journals/corr/MikolovSCCD13}. \^ In prezent, atunci c\^ and vine vorba despre modelare de limbaj natural, word2vec este solu\c tia cea mai abordat\u a \^ in practic\u a. Aceasta propune folosirea unor vectori de lungime fix\u a, compact\u a care totodat\u a s\u a captureze sensul cuvintelor. Ideea de baz\u a este ca \^ in spa\c tiul n-dimensional folosit, cuvintele cu semantic\u a asem\u anatoare s\u a aib\u a un scor de similaritate c\^at mai mare. Ca \c si metric\u a de similaritate preferat\u a pentru cuantificarea asem\u an\u arii \^ intre reprezentarea a dou\u a cuvinte, c\^ astig\u atoarea este de cele mai multe ori similaritatea cosinus (Ecua\c tia 3.5). Cel mai popular exemplu produs pentru a descrie puterea de modelare folosit\u a de word2vec este \(king - man + woman \approx queen\). Figura 3.7 captureaz\u a ideea de word2vec vizualizat \^ intr-un spa\c tiu bidimensional.
 
 \begin{equation}
 s(w_{1}, w_{2}) = \frac{\sum_{i=1}^{n}w_{1i}w_{2i}}{\sqrt{\sum_{i=1}^{n}w_{1i}^{2}}\sqrt{\sum_{i=1}^{n}w_{2i}^{2}}}
@@ -158,18 +174,18 @@ s(w_{1}, w_{2}) = \frac{\sum_{i=1}^{n}w_{1i}w_{2i}}{\sqrt{\sum_{i=1}^{n}w_{1i}^{
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.7\textwidth]{word_embeddings}
-\caption{Word2vec vizualizat \^ in spa\c tiu 2D \cite{word-embeddings}}
+\caption{Word2vec vizualizat \^ in spa\c tiul 2D \cite{word-embeddings}}
 \end{figure} 
 
 \subsection{Word embeddings preantrenate}
 
 \paragraph{}
-\^ In machine learning, de cele mai multe ori exist\u a arhitecturi deja antrenate pentru diverse sarcini precum clasificare de imagini, recunoa\c stere vocal\u a etc. La fel este cazul \c si pentru word embeddings. Google a produs o antrenare pe un set de date care const\u a din miliarde de articole de \c stiri, rezult\^ and \^ in urma acesteia word embeddings pentru aproximativ trei miliarde de cuvinte \cite{word2vec}. Dac\u a se dore\c ste antrenarea unei re\c tele care s\u a \^ inve\c te word embeddings pornind de la zero este posibil, \^ ins\u a sarcina este destul de dificil\u a iar rezultatul produs este dependent de natura cuvintelor din setul de date disponibil. Modelarea ideal\u a ar fi ca aceste reprezent\u ari ale cuvintelor s\u a exprime c\^ at mai bine realitatea \^ inconjur\u atoare \c si nu un subset al acesteia. Din acest motiv, este preferat\u a folosirea modelului preantrenat de word embeddings pus\u a la dispozi\c tie de Google.
+\^ In machine learning, de cele mai multe ori exist\u a arhitecturi deja antrenate pentru diverse sarcini precum clasificare de imagini, recunoa\c stere vocal\u a etc. La fel este cazul \c si pentru word embeddings. Google a produs o antrenare pe un set de date care const\u a din miliarde de articole de \c stiri, rezult\^ and \^ in urma acesteia word embeddings pentru aproximativ trei miliarde de cuvinte \cite{word2vec}. Dac\u a se dore\c ste antrenarea unei re\c tele care s\u a \^ inve\c te word embeddings pornind de la zero este posibil, \^ ins\u a sarcina este destul de dificil\u a iar rezultatul produs este dependent de natura cuvintelor din setul de date disponibil. Modelarea ideal\u a ar fi ca aceste reprezent\u ari ale cuvintelor s\u a exprime c\^ at mai bine realitatea \^ inconjur\u atoare \c si nu un subset al acesteia. Din acest motiv, este preferat\u a folosirea modelului preantrenat de word embeddings pus la dispozi\c tie de Google.
 
 \section{Predic\c tie}
 
 \paragraph{}
-Av\^ and modelul antrenat, acesta trebuie folosit pentru predic\c tie, adic\u a generarea unor r\u aspunsuri adecvate pentru contextul discu\c tiei. Generarea cuvintelor este condi\c tionat\u a at\^ at de context, c\^ at \c si de cuvintele anterior generate. Spre deosebire de antrenare, \^ in momentul predic\c tiei, secve\c ta de ie\c sire este goal\u a ini\c tial (un vector de zerouri). Cuvintele sunt generate secven\c tial, unul c\^ ate unul \c si ad\u augate pe pozi\c tia \(t\) la care a ajuns secven\c ta. Deoarece stratul softmax al secven\c tei de ie\c sire returneaz\u a un vector de probabilit\u a\c ti peste toate cuvintele din vocabular, pentru a returna cuv\^ antul dorit se alege cel cu probabilitatea cea mai mare. Pornind de la aceast\u a idee, exist\u a dou\u a variante de generare: metoda greedy \c si beam search.
+Av\^ and modelul antrenat, acesta trebuie folosit pentru predic\c tie, adic\u a generarea unor r\u aspunsuri adecvate pentru contextul discu\c tiei. Generarea cuvintelor este condi\c tionat\u a at\^ at de context, c\^ at \c si de cuvintele anterior generate. Spre deosebire de antrenare, \^ in momentul predic\c tiei, secven\c ta de ie\c sire este goal\u a ini\c tial (un vector de zerouri). Cuvintele sunt generate secven\c tial, unul c\^ ate unul \c si ad\u augate pe pozi\c tia \(t\) la care a ajuns secven\c ta. Deoarece stratul softmax al secven\c tei de ie\c sire returneaz\u a un vector de probabilit\u a\c ti peste toate cuvintele din vocabular, pentru a returna cuv\^ antul dorit se alege cel cu probabilitatea cea mai mare. Pornind de la aceast\u a idee, exist\u a dou\u a variante de generare: metoda greedy \c si beam search.
 
 \subsection{Greedy}
 
@@ -179,7 +195,7 @@ Precum \^ in teoria clasic\u a a algoritmicii, scopul metodelor greedy este s\u 
 \subsection{Beam search}
 
 \paragraph{}
-Algoritmul beam search \cite{norvig1992paradigms} folose\c ste ideea de arbore de c\u autare pentru a genera fraze (Figura 3.6). \^ In locul alegerii cuv\^ antului cu probabilitatea cea mai mare la fiecare pas, se vor alege top \(k\) cuvinte cu cele mai mari probabilit\u a\c ti. \^ In literatur\u a, \(k\) se mai nume\c ste \c si beam size. Fiecare nod (cuv\^ ant) ales va produce un num\u ar \(n_c\) de copii. \^ In felul acesta este garantat\u a generarea mai multor fraze canditat din care se va alege. Fiecare fraz\u a are un scor \(S(f)\), care este de forma ecua\c tiei 3.3, unde \(P(w_{i})\) reprezint\u a probabilitatea cuv\^ antului ales. O fraz\u a devine canditat atunci c\^ and cuv\^ antul curent generat este simbolul de sf\^ ar\c sit de propozi\c tie. \^ In momentul \^ in care algoritmul a terminat de generat toate frazele canditat, cea mai bun\u a este determinat\u a ca fiind cea cu scorul \(S(f)\) cel mai mare.\\
+Algoritmul beam search \cite{norvig1992paradigms} folose\c ste ideea de arbore de c\u autare pentru a genera fraze (Figura 3.8). \^ In locul alegerii cuv\^ antului cu probabilitatea cea mai mare la fiecare pas, se vor alege top \(k\) cuvinte cu cele mai mari probabilit\u a\c ti. \^ In literatur\u a, \(k\) se mai nume\c ste \c si beam size. Fiecare nod (cuv\^ ant) ales va produce un num\u ar \(n_c\) de copii. \^ In felul acesta este garantat\u a generarea mai multor fraze canditat din care se va alege. Fiecare fraz\u a are un scor \(S(f)\), care este de forma Ecua\c tiei 3.6, unde \(P(w_{i})\) reprezint\u a probabilitatea cuv\^ antului ales. O fraz\u a devine canditat atunci c\^ and cuv\^ antul curent generat este simbolul de sf\^ ar\c sit de propozi\c tie. \^ In momentul \^ in care algoritmul a terminat de generat toate frazele canditat, cea mai bun\u a este determinat\u a ca fiind cea cu scorul \(S(f)\) cel mai mare.\\
 
 \begin{equation}
 \begin{split}
