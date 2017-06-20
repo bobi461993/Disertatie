@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.29)  20 JUN 2017 10:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.29)  20 JUN 2017 13:36
 entering extended mode
 **./Disertatie.tex
 (Disertatie.tex
@@ -817,13 +817,13 @@ Package rerunfilecheck Info: File `Disertatie.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 33.
  ) 
 Here is how much of TeX's memory you used:
- 8318 strings out of 493333
- 120991 string characters out of 3141366
+ 8317 strings out of 493333
+ 120983 string characters out of 3141366
  225136 words of memory out of 3000000
- 11432 multiletter control sequences out of 15000+200000
+ 11431 multiletter control sequences out of 15000+200000
  14001 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,15n,33p,2693b,450s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,15n,33p,2703b,450s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/ProgramFiles/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Program
 Files/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/ProgramFiles/MikTex/
 fonts/type1/public/amsfonts/cmextra/cmex8.pfb><D:/ProgramFiles/MikTex/fonts/typ
@@ -838,7 +838,7 @@ cm/cmr7.pfb><D:/ProgramFiles/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:
 /MikTex/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/ProgramFiles/MikTex/fonts/
 type1/public/amsfonts/cm/cmsy8.pfb><D:/ProgramFiles/MikTex/fonts/type1/public/a
 msfonts/cm/cmti12.pfb>
-Output written on Disertatie.pdf (39 pages, 1340565 bytes).
+Output written on Disertatie.pdf (39 pages, 1340676 bytes).
 PDF statistics:
  768 PDF objects out of 1000 (max. 8388607)
  231 named destinations out of 1000 (max. 500000)
